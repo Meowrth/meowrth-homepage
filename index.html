@@ -232,5 +232,20 @@
     </a>
     <p>© 2025 Meowrth. All rights reserved.</p>
   </footer>
+
+   <script>
+    const sideImage = document.getElementById('sideImage');
+
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY || window.pageYOffset;
+      // 최대 40px 위아래 이동 범위 지정
+      const maxScroll = 1000;
+      let moveY = (scrollY / maxScroll) * 80 - 40;
+      if (moveY > 40) moveY = 40;
+      if (moveY < -40) moveY = -40;
+
+      sideImage.style.transform = `translateY(${moveY}px)`;
+    });
+  </script>
 </body>
 </html>
