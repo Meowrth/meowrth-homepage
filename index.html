@@ -4,163 +4,166 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Meowrth [MEWR] - The Purrfect Meme Coin on Solana</title>
+  
+  <!-- 구글폰트: Noto Sans KR -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
+
   <style>
-body {
-  background: url('images/space-bg.jpg') no-repeat center center fixed;
-  background-size: cover;
-  color: #e0d7f5;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0 15px;
-  position: relative;
-  z-index: 0;
-}
+    body {
+      background: url('images/space-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #e0d7f5;
+      font-family: 'Noto Sans KR', Arial, sans-serif;
+      margin: 0;
+      padding: 0 15px;
+      z-index: 0;
+    }
 
-/* 배경 오버레이 (가독성 향상) */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* 반투명 검정 */
-  z-index: -1;
-}
+    /* 배경 오버레이 (가독성 향상) */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5); /* 반투명 검정 */
+      z-index: -1;
+    }
 
-header {
-  text-align: center;
-  margin-top: 20px;
-  position: relative;
-  z-index: 1;
-}
+    header {
+      text-align: center;
+      margin-top: 20px;
+      z-index: 1;
+    }
 
-header img {
-  max-width: 100%;
-  height: auto;
-  max-height: 120px;
-}
+    header img {
+      max-width: 100%;
+      height: auto;
+      max-height: 200px;
+      width: auto;
+      transition: max-height 0.3s ease;
+    }
 
-main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 900px;
-  margin: 30px auto;
-  padding: 0 20px;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #e0d7f5;
-  gap: 20px;
-  position: relative;
-  z-index: 1;
-}
+    main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      gap: 20px;
+      color: #e0d7f5;
+      z-index: 1;
+    }
 
-main > div:first-child {
-  flex: 1;
-  background-color: rgba(26, 26, 46, 0.6); /* 짙은 파랑 반투명 */
-  padding: 20px;
-  border-radius: 8px;
-}
+    main > div:first-child {
+      flex: 1;
+      background-color: rgba(26, 26, 46, 0.6); /* 짙은 파랑 반투명 */
+      padding: 20px;
+      border-radius: 8px;
+    }
 
-main img {
-  max-height: 240px;
-  width: auto;
-  position: relative;
-  z-index: 1;
-}
+    main img {
+      max-height: 240px;
+      width: auto;
+      z-index: 1;
+    }
 
-section {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
-  position: relative;
-  z-index: 1;
-}
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      z-index: 1;
+    }
 
-h2 {
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #a394c7;
-}
+    h2 {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #a394c7;
+    }
 
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
 
-.btn {
-  display: inline-block;
-  background-color: #a394c7;
-  color: #1a1a2e;
-  font-weight: bold;
-  padding: 10px 20px;
-  margin: 5px 10px 5px 0;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-}
-.btn:hover {
-  background-color: #8b7fc1;
-  color: white;
-}
+    .btn {
+      display: inline-block;
+      background-color: #a394c7;
+      color: #1a1a2e;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin: 5px 10px 5px 0;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    }
+    .btn:hover {
+      background-color: #8b7fc1;
+      color: white;
+    }
 
-footer {
-  text-align: center;
-  margin: 40px auto 20px;
-  color: #a394c7;
-  font-size: 0.9rem;
-  position: relative;
-  z-index: 1;
-}
+    footer {
+      text-align: center;
+      margin: 40px auto 20px;
+      color: #a394c7;
+      font-size: 0.9rem;
+      z-index: 1;
+    }
 
-footer a {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: #a394c7;
-  text-decoration: none;
-}
+    footer a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #a394c7;
+      text-decoration: none;
+    }
 
-footer img {
-  filter: drop-shadow(0 0 2px red);
-  width: 24px;
-  height: 24px;
-}
+    footer img {
+      filter: drop-shadow(0 0 2px red);
+      width: 24px;
+      height: 24px;
+    }
 
-/* 반응형 - 모바일 */
-@media (max-width: 768px) {
-  main {
-    flex-direction: column;
-    padding: 0 10px;
-  }
+    /* 반응형 - 모바일 */
+    @media (max-width: 768px) {
+      header img {
+        max-height: 120px;
+      }
 
-  main > div:first-child {
-    margin-right: 0;
-  }
+      main {
+        flex-direction: column;
+        padding: 0 10px;
+      }
 
-  main img {
-    max-height: 180px;
-    margin-top: 20px;
-  }
+      main > div:first-child {
+        margin-right: 0;
+      }
 
-  .btn {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-  }
+      main img {
+        max-height: 180px;
+        margin-top: 20px;
+      }
 
-  section {
-    margin: 30px 0;
-    padding: 0 10px;
-  }
-}
+      .btn {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+      }
 
+      section {
+        margin: 30px 0;
+        padding: 0 10px;
+      }
+    }
   </style>
 </head>
 <body>
-<header>
-  <img src="images/미우르1.png" alt="Meowrth Logo" style="max-height: 200px; width: auto;" />
-  <h1>The Purrfect Meme Coin on Solana</h1>
-</header>
+  <header>
+    <img src="images/미우르1.png" alt="Meowrth Logo" />
+    <h1>The Purrfect Meme Coin on Solana</h1>
+  </header>
 
   <main>
     <div>
@@ -196,17 +199,17 @@ footer img {
   <section id="roadmap">
     <h2>Roadmap</h2>
     <p>
-      <strong>Q2 2025:</strong> Coin Launch<br>
-      <strong>Q3 2025:</strong> DEX Listing and Community Events<br>
+      <strong>Q2 2025:</strong> Coin Launch<br />
+      <strong>Q3 2025:</strong> DEX Listing and Community Events<br />
       <strong>Q4 2025:</strong> NFT Collaborations and Global Meme Championship
     </p>
   </section>
 
   <section id="community">
     <h2>Join the Community</h2>
-    <a href="https://x.com/MarsMeowrth" target="_blank" class="btn">Follow on Twitter</a>
-    <a href="https://jup.ag/tokens/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" class="btn">Trade on Jupiter</a>
-    <a href="https://raydium.io/launchpad/token/?mint=5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" class="btn">View on Raydium</a>
+    <a href="https://x.com/MarsMeowrth" target="_blank" rel="noopener noreferrer" class="btn">Follow on Twitter</a>
+    <a href="https://jup.ag/tokens/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" rel="noopener noreferrer" class="btn">Trade on Jupiter</a>
+    <a href="https://raydium.io/launchpad/token/?mint=5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" rel="noopener noreferrer" class="btn">View on Raydium</a>
   </section>
 
   <footer>
