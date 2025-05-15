@@ -4,33 +4,30 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Meowrth [MEWR] - The Purrfect Meme Coin on Solana</title>
-  
-  <!-- 구글폰트: Noto Sans KR -->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
-
   <style>
     body {
       background: url('images/space-bg.jpg') no-repeat center center fixed;
       background-size: cover;
       color: #e0d7f5;
-      font-family: 'Noto Sans KR', Arial, sans-serif;
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0 15px;
+      position: relative;
       z-index: 0;
     }
 
-    /* 배경 오버레이 (가독성 향상) */
     body::before {
       content: "";
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(0, 0, 0, 0.5); /* 반투명 검정 */
+      background-color: rgba(0, 0, 0, 0.5);
       z-index: -1;
     }
 
     header {
       text-align: center;
       margin-top: 20px;
+      position: relative;
       z-index: 1;
     }
 
@@ -38,8 +35,6 @@
       max-width: 100%;
       height: auto;
       max-height: 200px;
-      width: auto;
-      transition: max-height 0.3s ease;
     }
 
     main {
@@ -51,14 +46,15 @@
       padding: 0 20px;
       font-size: 1.1rem;
       line-height: 1.6;
-      gap: 20px;
       color: #e0d7f5;
+      gap: 20px;
+      position: relative;
       z-index: 1;
     }
 
     main > div:first-child {
       flex: 1;
-      background-color: rgba(26, 26, 46, 0.6); /* 짙은 파랑 반투명 */
+      background-color: rgba(26, 26, 46, 0.6);
       padding: 20px;
       border-radius: 8px;
     }
@@ -66,13 +62,30 @@
     main img {
       max-height: 240px;
       width: auto;
+      position: relative;
       z-index: 1;
+    }
+
+    /* 상하 부드러운 움직임 애니메이션 */
+    @keyframes floatUpDown {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-15px);
+      }
+    }
+
+    /* 이미지에 애니메이션 적용 */
+    img.float-vertical {
+      animation: floatUpDown 3s ease-in-out infinite;
     }
 
     section {
       max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
+      position: relative;
       z-index: 1;
     }
 
@@ -109,6 +122,7 @@
       margin: 40px auto 20px;
       color: #a394c7;
       font-size: 0.9rem;
+      position: relative;
       z-index: 1;
     }
 
@@ -126,12 +140,7 @@
       height: 24px;
     }
 
-    /* 반응형 - 모바일 */
     @media (max-width: 768px) {
-      header img {
-        max-height: 120px;
-      }
-
       main {
         flex-direction: column;
         padding: 0 10px;
@@ -149,7 +158,7 @@
       .btn {
         width: 100%;
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
       }
 
       section {
@@ -181,7 +190,7 @@
       </p>
     </div>
     <div>
-      <img src="images/미우르(투명)1.png" alt="Meowrth Side Image" />
+      <img src="images/미우르(투명)1.png" alt="Meowrth Side Image" class="float-vertical" />
     </div>
   </main>
 
@@ -199,17 +208,17 @@
   <section id="roadmap">
     <h2>Roadmap</h2>
     <p>
-      <strong>Q2 2025:</strong> Coin Launch<br />
-      <strong>Q3 2025:</strong> DEX Listing and Community Events<br />
+      <strong>Q2 2025:</strong> Coin Launch<br>
+      <strong>Q3 2025:</strong> DEX Listing and Community Events<br>
       <strong>Q4 2025:</strong> NFT Collaborations and Global Meme Championship
     </p>
   </section>
 
   <section id="community">
     <h2>Join the Community</h2>
-    <a href="https://x.com/MarsMeowrth" target="_blank" rel="noopener noreferrer" class="btn">Follow on Twitter</a>
-    <a href="https://jup.ag/tokens/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" rel="noopener noreferrer" class="btn">Trade on Jupiter</a>
-    <a href="https://raydium.io/launchpad/token/?mint=5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" rel="noopener noreferrer" class="btn">View on Raydium</a>
+    <a href="https://x.com/MarsMeowrth" target="_blank" class="btn">Follow on Twitter</a>
+    <a href="https://jup.ag/tokens/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" class="btn">Trade on Jupiter</a>
+    <a href="https://raydium.io/launchpad/token/?mint=5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" class="btn">View on Raydium</a>
   </section>
 
   <footer>
