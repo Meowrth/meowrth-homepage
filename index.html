@@ -4,72 +4,190 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Meowrth [MEWR] - The Purrfect Meme Coin on Solana</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #1a1a2e;
+      color: #e0d7f5;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0 15px;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    header img {
+      max-width: 100%;
+      height: auto;
+      max-height: 120px;
+    }
+
+    main {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #e0d7f5;
+      gap: 20px;
+    }
+
+    main > div:first-child {
+      flex: 1;
+    }
+
+    main img {
+      max-height: 240px;
+      width: auto;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #a394c7;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #a394c7;
+      color: #1a1a2e;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin: 5px 10px 5px 0;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #8b7fc1;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      margin: 40px auto 20px;
+      color: #a394c7;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: #a394c7;
+      text-decoration: none;
+    }
+
+    footer img {
+      filter: drop-shadow(0 0 2px red);
+      width: 24px;
+      height: 24px;
+    }
+
+    /* 반응형 - 모바일 */
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+        padding: 0 10px;
+      }
+
+      main > div:first-child {
+        margin-right: 0;
+      }
+
+      main img {
+        max-height: 180px;
+        margin-top: 20px;
+      }
+
+      .btn {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      section {
+        margin: 30px 0;
+        padding: 0 10px;
+      }
+    }
+
+  </style>
 </head>
 <body>
-  <header style="text-align: center; margin-top: 20px;">
-    <img src="images/미우르1.png" alt="Meowrth Logo" width="240" height="auto" />
+  <header>
+    <img src="images/미우르1.png" alt="Meowrth Logo" />
     <h1>The Purrfect Meme Coin on Solana</h1>
   </header>
 
-  <main style="display: flex; align-items: center; justify-content: space-between; max-width: 900px; margin: 30px auto; padding: 0 20px; font-size: 1.1rem; line-height: 1.6; color: #e0d7f5;">
-  <div style="flex: 1; margin-right: 20px;">
+  <main>
+    <div>
+      <p>
+        <strong>Meowrth [MEWR]</strong> is a community-driven meme coin built on the Solana blockchain.<br /><br />
+        Among the many planets in the solar system,<br />
+        <em>Mars was too cold and too quiet for cats.</em><br />
+        Memes are born in communities — but there are no memes on Mars.<br /><br />
+        So they made a decision:<br />
+        <strong>“Let’s go to Earth. Let’s go to Meowrth!”</strong><br /><br />
+        Based on the storyline of <em>“A Martian cat’s journey to settle on Earth,”</em><br />
+        Meowrth aims to build a creator-friendly meme ecosystem,<br />
+        a community-led token economy,<br />
+        and a fun, culturally connected world.
+      </p>
+    </div>
+    <div>
+      <img src="images/미우르(투명)1.png" alt="Meowrth Side Image" />
+    </div>
+  </main>
+
+  <section id="tokenomics">
+    <h2>Tokenomics</h2>
+    <ul>
+      <li><strong>Total Supply:</strong> 10,000,000,000 MEWR</li>
+      <li><strong>Community Distribution:</strong> 50%</li>
+      <li><strong>Liquidity Pool:</strong> 30%</li>
+      <li><strong>Development Team:</strong> 10%</li>
+      <li><strong>Airdrop:</strong> 10%</li>
+    </ul>
+  </section>
+
+  <section id="roadmap">
+    <h2>Roadmap</h2>
     <p>
-  <strong>Meowrth [MEWR]</strong> is a community-driven meme coin built on the Solana blockchain.<br /><br />
-  Among the many planets in the solar system,<br />
-  <em>Mars was too cold and too quiet for cats.</em><br />
-  Memes are born in communities — but there are no memes on Mars.<br /><br />
-  So they made a decision:<br />
-  <strong>“Let’s go to Earth. Let’s go to Meowrth!”</strong><br /><br />
-  Based on the storyline of <em>“A Martian cat’s journey to settle on Earth,”</em><br />
-  Meowrth aims to build a creator-friendly meme ecosystem,<br />
-  a community-led token economy,<br />
-  and a fun, culturally connected world.
-</p>
-  </div>
-  <div>
-    <img src="images/미우르(투명)1.png" alt="Meowrth Side Image" width="200" style="max-height: 240px;" />
-  </div>
-</main>
+      <strong>Q2 2025:</strong> Coin Launch<br>
+      <strong>Q3 2025:</strong> DEX Listing and Community Events<br>
+      <strong>Q4 2025:</strong> NFT Collaborations and Global Meme Championship
+    </p>
+  </section>
 
-<footer style="text-align: center; margin-bottom: 20px; color: #a394c7;">
-  <a href="https://x.com/MarsMeowrth" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 8px; color: #a394c7; text-decoration: none;">
-    <img src="images/twitter-red.png" alt="Twitter" width="24" height="24" style="filter: drop-shadow(0 0 2px red);" />
-    <span style="font-weight: bold;">Follow us on Twitter</span>
-  </a>
-</footer>
-  
-</body>
-</html>
-
-<section id="tokenomics">
-  <h2>Tokenomics</h2>
-  <ul style="list-style-type: disc; padding-left: 20px;">
-    <li><strong>Total Supply:</strong> 10,000,000,000 MEWR</li>
-    <li><strong>Community Distribution:</strong> 50%</li>
-    <li><strong>Liquidity Pool:</strong> 30%</li>
-    <li><strong>Development Team:</strong> 10%</li>
-    <li><strong>Airdrop:</strong> 10%</li>
-  </ul>
-</section>
-
-<section id="roadmap" style="margin-top: 40px;">
-  <h2>Roadmap</h2>
-  <p>
-    <strong>Q2 2025:</strong> Coin Launch<br>
-    <strong>Q3 2025:</strong> DEX Listing and Community Events<br>
-    <strong>Q4 2025:</strong> NFT Collaborations and Global Meme Championship
-  </p>
-</section>
-
- <section id="community">
-  <h2>Join the Community</h2>
-  <a href="https://x.com/MarsMeowrth" target="_blank" class="btn">Follow on Twitter</a>
-  <a href="https://jup.ag/tokens/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" class="btn">Trade on Jupiter</a>
-  <a href="https://raydium.io/launchpad/token/?mint=5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" class="btn">View on Raydium</a>
-</section>
+  <section id="community">
+    <h2>Join the Community</h2>
+    <a href="https://x.com/MarsMeowrth" target="_blank" class="btn">Follow on Twitter</a>
+    <a href="https://jup.ag/tokens/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" class="btn">Trade on Jupiter</a>
+    <a href="https://raydium.io/launchpad/token/?mint=5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" class="btn">View on Raydium</a>
+  </section>
 
   <footer>
+    <a href="https://x.com/MarsMeowrth" target="_blank" rel="noopener noreferrer">
+      <img src="images/twitter-red.png" alt="Twitter" />
+      <span style="font-weight: bold;">Follow us on Twitter</span>
+    </a>
     <p>© 2025 Meowrth. All rights reserved.</p>
   </footer>
 </body>
