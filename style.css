@@ -79,3 +79,51 @@ footer {
     padding: 0.5rem 1rem;
   }
 }
+
+.meowrth-story {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  text-align: left;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  color: #fbeaff;
+}
+
+.meowrth-story h2 {
+  font-size: 2.2rem;
+  color: #ff99ff;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.meowrth-story h3 {
+  font-size: 1.5rem;
+  color: #ff66cc;
+  margin-top: 2rem;
+}
+
+.meowrth-story p {
+  margin-bottom: 1.5rem;
+}
+
+.meowrth-story ul.features {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.meowrth-story ul.features li {
+  background-color: #1e1f30;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(255, 102, 204, 0.2);
+}
+
+.meowrth-story .final-quote {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #ffc9f8;
+  text-align: center;
+  margin-top: 2rem;
+}
