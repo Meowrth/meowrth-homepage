@@ -172,6 +172,70 @@
     }
   </style>
 </head>
+<header>
+  <nav class="top-nav">
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#technical-overview">Technical Overview</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+      <li><a href="#team">Meowrth Team</a></li>
+      <li><a href="#community">Community</a></li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+  .top-nav {
+    background-color: rgba(26, 26, 46, 0.85);
+    backdrop-filter: saturate(180%) blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  }
+
+  .top-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .top-nav ul li {
+    margin: 0;
+  }
+
+  .top-nav ul li a {
+    color: #a394c7;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+
+  .top-nav ul li a:hover,
+  .top-nav ul li a:focus {
+    color: #ff81d9;
+    outline: none;
+  }
+
+  body {
+    padding-top: 56px;
+  }
+
+  @media (max-width: 600px) {
+    .top-nav ul {
+      gap: 20px;
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
 <body>
   <header>
     <img src="images/logo.png" alt="Meowrth Logo" />
@@ -333,7 +397,6 @@ And a vibrant world full of fun and culture.
   <a href="https://solscan.io/token/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" rel="noopener noreferrer" class="btn">View on Solscan</a>
 </section>
 
-<footer>
   <footer style="text-align: center; padding: 1.5rem 0; background-color: #1a1a1a; color: #fff;">
   <style>
     .footer-link {
