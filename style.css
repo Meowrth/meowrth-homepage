@@ -127,3 +127,21 @@ footer {
   text-align: center;
   margin-top: 2rem;
 }
+
+.quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #e0b3ff;
+  margin-top: 1.5rem;
+  text-shadow: 0 0 5px rgba(224, 179, 255, 0.7);
+}
+
+.mystic {
+  font-size: 1.2rem;
+  color: #dba1ff;
+  margin-top: 0.5rem;
+  letter-spacing: 0.15em;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0 0 4px rgba(219, 161, 255, 0.6);
+}
+
