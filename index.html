@@ -234,6 +234,12 @@
       font-size: 0.9rem;
     }
   }
+    body, body * {
+      -webkit-user-select: none !important;
+      -moz-user-select: none !important;
+      -ms-user-select: none !important;
+      user-select: none !important;
+    }
 </style>
 
 <body>
@@ -503,3 +509,8 @@
   </div>
   <p style="margin-top: 1rem; font-size: 0.875rem;">© One Day in May 2025 Meowrth. All rights reserved.</p>
 </footer>
+
+<script>
+    document.addEventListener('dragstart', e => e.preventDefault());
+  </script>
+</body>
