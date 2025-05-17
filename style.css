@@ -197,3 +197,11 @@ footer {
   margin-top: 1.5rem;
   text-shadow: 0 0 5px rgba(224, 179, 255, 0.7);
 }
+
+body {
+  -webkit-user-select: none; /* Chrome, Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* IE/Edge */
+  user-select: none;         /* 표준 */
+}
+
