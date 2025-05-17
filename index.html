@@ -239,10 +239,63 @@ And a vibrant world full of fun and culture.
   <a href="https://solscan.io/token/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" rel="noopener noreferrer" class="btn">View on Solscan</a>
 </section>
 
-  <footer>
-    <a href="https://x.com/MarsMeowrth" target="_blank" rel="noopener noreferrer">
-      <img src="images/twitter-red.png" alt="Twitter" />
-      <span style="font-weight: bold;">Follow us on Twitter</span>
+<footer>
+  <footer style="text-align: center; padding: 1.5rem 0; background-color: #1a1a1a; color: #fff;">
+  <style>
+    .footer-link {
+      position: relative;
+      font-weight: 900;
+      font-size: 1.2rem;
+      text-decoration: none;
+      background: linear-gradient(270deg, #ff3ccf, #3cefff, #ff3ccf, #3cefff);
+      background-size: 800% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: holo-gradient-strong 3s ease infinite;
+      text-shadow:
+        0 0 8px #ff3ccf,
+        0 0 15px #3cefff,
+        0 0 20px #ff3ccf,
+        0 0 30px #3cefff,
+        0 0 40px #ff3ccf;
+      transition: text-shadow 0.3s ease;
+    }
+    .footer-link.telegram-link {
+      background: linear-gradient(270deg, #3cefff, #ff3ccf, #3cefff, #ff3ccf);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: holo-gradient-strong 3s ease infinite reverse;
+    }
+    .footer-link:hover {
+      animation-play-state: paused;
+      text-shadow:
+        0 0 15px #ff81d9,
+        0 0 25px #7bf0ff,
+        0 0 35px #ff81d9,
+        0 0 45px #7bf0ff,
+        0 0 55px #ff81d9;
+      cursor: pointer;
+    }
+    @keyframes holo-gradient-strong {
+      0% {
+        background-position: 0% 0%;
+      }
+      50% {
+        background-position: 100% 0%;
+      }
+      100% {
+        background-position: 0% 0%;
+      }
+    }
+  </style>
+
+  <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; align-items: center;">
+    <a href="https://x.com/MarsMeowrth" target="_blank" rel="noopener noreferrer" class="footer-link">
+      Follow on Twitter
     </a>
-    <p>© 2025 Meowrth. All rights reserved.</p>
-  </footer>
+    <a href="https://t.me/MarsMeowrth" target="_blank" rel="noopener noreferrer" class="footer-link telegram-link">
+      Join Telegram
+    </a>
+  </div>
+  <p style="margin-top: 1rem; font-size: 0.875rem;">© 2025 Meowrth. All rights reserved.</p>
+</footer>
