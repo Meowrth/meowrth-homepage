@@ -145,3 +145,45 @@ footer {
   text-shadow: 0 0 4px rgba(219, 161, 255, 0.6);
 }
 
+.banner-header {
+  background: linear-gradient(135deg, #330033, #660066);
+  padding: 5rem 1rem 4rem;
+  text-align: center;
+  border-bottom: 3px solid #ff33cc;
+  box-shadow: 0 10px 30px rgba(255, 51, 204, 0.6);
+}
+
+.main-title {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #ff33cc;
+  text-shadow: 0 0 20px #ff66ff, 0 0 30px #ff00ff;
+  margin: 0;
+  letter-spacing: 0.1em;
+}
+
+.tagline {
+  font-size: 1.75rem;
+  color: #ff99ff;
+  margin-top: 0.8rem;
+  font-style: italic;
+  text-shadow: 0 0 8px #ff99ff;
+}
+
+.quote {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff66cc;
+  margin-top: 2rem;
+  text-shadow: 0 0 15px #ff33cc;
+  font-style: normal;
+}
+
+.mystic {
+  font-size: 1.5rem;
+  color: #ff66ff;
+  margin-top: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0 0 10px #ff66ff;
+  letter-spacing: 0.2em;
+}
