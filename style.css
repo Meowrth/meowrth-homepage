@@ -1,4 +1,4 @@
-
+/* 기본 설정 */
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;
@@ -6,19 +6,25 @@ body {
   color: #fbeaff;
   text-align: center;
 }
+
+/* 헤더 스타일 */
 header {
   background-color: #1d1e2e;
   padding: 2rem 1rem;
 }
+
 .logo {
   width: 120px;
   border-radius: 50%;
   margin-bottom: 1rem;
 }
+
 .tagline {
   font-size: 1.25rem;
   color: #ff99ff;
 }
+
+/* 버튼 */
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -27,20 +33,49 @@ header {
   color: #fff;
   text-decoration: none;
   border-radius: 2rem;
+  transition: all 0.3s ease;
 }
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ff99ff;
+}
+
+/* 섹션 */
 section {
   padding: 2rem 1rem;
   border-bottom: 1px solid #333;
 }
+
+/* 리스트 */
 ul {
   list-style-type: none;
   padding: 0;
 }
+
 li {
   margin: 0.5rem 0;
 }
+
+/* 푸터 */
 footer {
   padding: 1rem;
   background-color: #1d1e2e;
   font-size: 0.875rem;
+  color: #aaa;
+}
+
+/* 반응형 보완 */
+@media (max-width: 600px) {
+  .logo {
+    width: 80px;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+  }
 }
