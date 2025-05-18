@@ -1,7 +1,3 @@
-from pathlib import Path
-
-# Markdown content (from user's message)
-markdown_content = """
 # 🐾 Meowrth ($MEWR) - The Purrfect Meme Coin on Solana
 
 ---
