@@ -4,6 +4,52 @@
 
 ---
 
+## **About**
+
+**Meowrth is a cute and fun meme coin built on the Solana blockchain.**  
+A decentralized project growing with the community, featuring a deflationary token model.
+
+---
+
+## **Website**
+
+[https://meowrth.com/](https://meowrth.com)
+
+---
+
+## **Whitepaper**
+
+Please refer to the `whitepaper.html` file.
+
+---
+
+## **Features**
+
+- **Fast and low-cost transactions on Solana**  
+- **Automatic token burn to increase scarcity**  
+- **Community-driven with transparency**  
+- **Charts and analytics included**
+
+---
+
+## **Follow us**
+
+- **Twitter:** [https://x.com/MarsMeowrth](https://x.com/MarsMeowrth)  
+- **GitHub:** [https://github.com/Meowrth/meowrth-homepage](https://github.com/Meowrth/meowrth-homepage)
+
+---
+
+## **License**
+
+Distributed under the MIT License.
+
+
+# **Meowrth ($MEWR)**
+
+## **🐾 The Purrfect Meme Coin on Solana**
+
+---
+
 ## **소개 (About)**
 
 **Meowrth는 Solana 블록체인 기반의 귀엽고 재미있는 밈 코인입니다.**  
@@ -34,52 +80,11 @@
 
 ## **팔로우하기 (Follow us)**
 
-- **Twitter:** [https://x.com/MarsMeowrth](https://x.com/MarsMeowrth)
+- **Twitter:** [https://x.com/MarsMeowrth](https://x.com/MarsMeowrth)  
+- **GitHub:** [https://github.com/Meowrth/meowrth-homepage](https://github.com/Meowrth/meowrth-homepage)
 
 ---
 
----
-
-# **Meowrth ($MEWR)**
-
-## **🐾 The Purrfect Meme Coin on Solana**
-
----
-
-## **About**
-
-**Meowrth is a cute and fun meme coin built on the Solana blockchain.**  
-A decentralized project growing with the community, featuring a deflationary token model.
-
----
-
-## **Website**
-
-[https://meowrth.com/](https://meowrth.com/)
-
----
-
-## **Whitepaper**
-
-Please refer to the `whitepaper.html` file.
-
----
-
-## **Features**
-
-- **Fast and low-cost transactions on Solana**  
-- **Automatic token burn to increase scarcity**  
-- **Community-driven with transparency**  
-- **Charts and analytics included**
-
----
-
-## **Follow us**
-
-- **Twitter:** [https://x.com/MarsMeowrth](https://x.com/MarsMeowrth)
-
----
-
-## **License**
+## **라이선스 (License)**
 
 Distributed under the MIT License.
