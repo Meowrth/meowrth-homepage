@@ -18,7 +18,7 @@ A decentralized project growing with the community, featuring a deflationary tok
 
 ## 📄 Whitepaper
 
-Please refer to the [`whitepaper.html`](whitepaper.html) file.
+Please refer to the [`whitepaper`](https://meowrth.com/whitepaper).
 
 ---
 
@@ -62,7 +62,7 @@ Distributed under the MIT License.
 
 ## 📄 백서
 
-[`whitepaper.html`](whitepaper.html) 파일을 참고하세요.
+[`whitepaper`](https://meowrth.com/whitepaper) 링크를 참고하세요.
 
 ---
 
