@@ -172,5 +172,10 @@ Meowrth 대이동에 합류하세요
 Distributed under the MIT License.  
 © 2025 Meowrth. All rights reserved.
 
-##📌 *본 문서는 투자 권유가 아니며, 밈 코인의 특성상 가격 변동성이 매우 큽니다. DYOR (Do Your Own Research)!*
+## 📌 Disclaimer
+
+*본 문서는 투자 권유가 아니며, 밈 코인의 특성상 가격 변동성이 매우 큽니다. DYOR (Do Your Own Research)!*
+
+This document is not investment advice. Meme coins are highly volatile. Please DYOR (Do Your Own Research)!
+
 
