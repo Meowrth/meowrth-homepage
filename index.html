@@ -4,9 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Meowrth[MEWR]</title>
-    <!-- 구글폰트 Noto Sans KR 추가 -->
+  <meta name="description" content="Meowrth (MEWR) - Solana 기반의 귀여운 밈코인, 최고의 Purrfect Meme Coin. 커뮤니티와 함께 성장하는 밈코인 프로젝트입니다." />
+  <meta name="keywords" content="Meowrth, MEWR, 밈코인, Solana, Meme Coin, 크립토, 암호화폐" />
+  <meta name="author" content="Meowrth Team" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Meowrth (MEWR) - The Purrfect Meme Coin on Solana" />
+  <meta property="og:description" content="귀여운 밈코인 Meowrth가 Solana 블록체인 위에 등장했습니다. 지금 커뮤니티와 함께 참여하세요!" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://meowrth-coin.netlify.app/" />
+  <meta property="og:image" content="https://meowrth-coin.netlify.app/images/og-image.png" />
+  <meta property="og:image:alt" content="Meowrth (MEWR) Logo" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@MarsMeowrth" />
+  <meta name="twitter:title" content="Meowrth (MEWR) - The Purrfect Meme Coin on Solana" />
+  <meta name="twitter:description" content="귀여운 밈코인 Meowrth가 Solana 블록체인 위에 등장했습니다. 지금 커뮤니티와 함께 참여하세요!" />
+  <meta name="twitter:image" content="https://meowrth-coin.netlify.app/images/og-image.png" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  
+  <!-- 구글폰트 Noto Sans KR 추가 -->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
+  
   <style>
+    /* 기본 바디 및 배경 */
     body {
       background: url('images/space-bg.jpg') no-repeat center center fixed;
       background-size: cover;
@@ -16,6 +36,11 @@
       padding: 0 15px;
       position: relative;
       z-index: 0;
+      padding-top: 56px; /* nav 고정 대응 */
+      -webkit-user-select: none !important;
+      -moz-user-select: none !important;
+      -ms-user-select: none !important;
+      user-select: none !important;
     }
 
     body::before {
@@ -26,29 +51,89 @@
       z-index: -1;
     }
 
-    header {
+    /* 상단 네비게이션 바 */
+    .top-nav {
+      background-color: rgba(26, 26, 46, 0.85);
+      backdrop-filter: saturate(180%) blur(10px);
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 9999;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+    }
+
+    .top-nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .top-nav ul li {
+      margin: 0;
+    }
+
+    .top-nav ul li a {
+      color: #a394c7;
+      text-decoration: none;
+      font-weight: 700;
+      font-family: 'Noto Sans KR', sans-serif;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .top-nav ul li a:hover,
+    .top-nav ul li a:focus {
+      color: #ff81d9;
+      outline: none;
+    }
+
+    @media (max-width: 600px) {
+      .top-nav ul {
+        gap: 20px;
+        padding: 10px;
+        font-size: 0.9rem;
+      }
+    }
+
+    /* 헤더 */
+    header.banner-header {
       text-align: center;
       margin-top: 20px;
       position: relative;
       z-index: 1;
     }
 
-    header img {
-      max-width: 100%;
-      height: auto;
-      max-height: 200px;
-      /* 좌우 움직임 애니메이션 적용 */
-      animation: floatLeftRight 1s ease-in-out infinite;
-    }
-
-    header h1 {
-      margin-top: 10px;
+    header.banner-header .main-title {
       font-weight: 700;
+      margin-bottom: 8px;
     }
 
+    header.banner-header .tagline {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #b9a8e0;
+      margin-bottom: 10px;
+    }
+
+    header.banner-header .quote {
+      font-style: italic;
+      color: #d4c5f9;
+      margin-bottom: 6px;
+    }
+
+    header.banner-header .mystic {
+      font-family: monospace;
+      font-size: 1.1rem;
+      color: #9b88c2;
+    }
+
+    /* 메인 컨텐츠 레이아웃 */
     main {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-between;
       max-width: 900px;
       margin: 30px auto;
@@ -75,7 +160,7 @@
       z-index: 1;
     }
 
-    /* 좌우 부드러운 움직임 애니메이션 */
+    /* 헤더 로고 애니메이션용 (필요 시 이미지에 적용) */
     @keyframes floatLeftRight {
       0%, 100% {
         transform: translateX(0);
@@ -85,6 +170,7 @@
       }
     }
 
+    /* 섹션 스타일 */
     section {
       max-width: 900px;
       margin: 40px auto;
@@ -104,6 +190,7 @@
       padding-left: 20px;
     }
 
+    /* 버튼 스타일 */
     .btn {
       display: inline-block;
       background-color: #a394c7;
@@ -121,6 +208,7 @@
       color: white;
     }
 
+    /* 풋터 */
     footer {
       text-align: center;
       margin: 40px auto 20px;
@@ -144,6 +232,7 @@
       height: 24px;
     }
 
+    /* 반응형 */
     @media (max-width: 768px) {
       main {
         flex-direction: column;
@@ -172,9 +261,11 @@
     }
   </style>
 </head>
-<header>
-  <nav class="top-nav">
-    <ul>
+
+<body>
+  <header>
+    <nav class="top-nav">
+      <ul>
       <li><a href="#home">HOME</a></li>
       <li><a href="#technical-overview">Technical Overview</a></li>
       <li><a href="#roadmap">Roadmap</a></li>
@@ -252,7 +343,6 @@
 
   <main>
     <div>
-      <p>
 <section class="meowrth-story">
   <h2>Meowrth [MEWR] — From Mars to Earth, a Meme Awakens</h2>
   <p>
@@ -315,7 +405,8 @@
     Are you ready to pounce?
   </p>
 </section>
-  </main>
+   </div>
+</main>
 
 <section id="technical-overview" style="margin-top: 40px; padding: 20px;">
   <h2>Technical Overview</h2>
