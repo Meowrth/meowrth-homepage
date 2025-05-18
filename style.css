@@ -205,3 +205,87 @@ body, body * {
   -ms-user-select: none !important;     /* IE/Edge */
   user-select: none !important;          /* 표준 */
 }
+
+/* 기본 바디 설정 */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* 컨테이너(중앙 정렬) */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 제목 및 단락 */
+h1, h2, h3, h4, h5, h6 {
+  color: #5a2a82;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* 이메일, 연락처 리스트 */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  line-height: 1.4;
+}
+
+ul li {
+  margin-bottom: 0.2rem;
+  color: #444;
+}
+
+/* Footer SNS 링크 스타일 */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.footer-link {
+  color: #5a2a82;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: #9a67d9;
+  outline: none;
+}
+
+/* Telegram 링크를 약간 다르게 스타일링 */
+.telegram-link {
+  color: #0088cc;
+}
+
+.telegram-link:hover,
+.telegram-link:focus {
+  color: #005f8c;
+}
+
+/* 줄간격 조절 */
+p, ul, li {
+  line-height: 1.5;
+}
+
+/* 파비콘 및 기타 아이콘 위치 (필요시) */
+/* 기타 스타일은 상황에 따라 추가하세요 */
