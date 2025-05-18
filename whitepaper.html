@@ -1,201 +1,256 @@
+<!-- 개선된 Whitepaper HTML -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Meowrth (MEWR) Whitepaper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Meowrth Team" />
+  <meta name="keywords" content="Meowrth, MEWR, Meme Coin, Solana, Cat Coin, Web3" />
+  <meta name="description" content="Meowrth [$MEWR] is the purrfect meme coin built on Solana, combining fun, community, and blockchain technology." />
+  <meta property="og:title" content="Meowrth [$MEWR] Whitepaper" />
+  <meta property="og:description" content="The Purrfect Meme Coin on Solana" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/Meowrth/meowrth-homepage/main/images/logo.png" />
+  <meta property="og:url" content="https://www.meowrth.com/whitepaper.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.ico" />
+  <title>Meowrth [$MEWR] Whitepaper</title>
   <style>
     body {
-      font-family: 'Courier New', monospace;
-      background-color: #121212;
-      color: #e5e5e5;
-      padding: 20px;
-      line-height: 1.7;
-      font-size: 19px;
+      background-color: #111;
+      color: #fff;
+      font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.6;
     }
-    h1 {
-      color: #ff8dd8;
-      font-size: 2em;
-      border-bottom: 2px solid #ff8dd8;
-      padding-bottom: 0.3em;
+    h1, h2, h3 {
+      color: #ff99cc;
     }
-    h2 {
-      color: #ff8dd8;
-      font-size: 1.5em;
-      margin-top: 2em;
+    nav {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+    }
+    nav a {
+      color: #66ccff;
+      margin-right: 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      color: #ffaaee;
+    }
+    .muted {
+      color: #aaa;
+      font-style: italic;
     }
     pre {
-      background: #1e1e1e;
-      padding: 15px;
+      background-color: #222;
+      padding: 1rem;
       border-radius: 10px;
       overflow-x: auto;
       white-space: pre-wrap;
+      word-break: break-word;
     }
-    code {
-      color: #90ee90;
+    canvas {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 1rem auto;
     }
-    a {
-      color: #8cd5ff;
-      text-decoration: none;
-    }
-    hr {
-      margin: 40px 0;
-      border: 1px dashed #555;
-    }
-    ul {
-      list-style-type: square;
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid #333;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
 
-<h1>Meowrth (MEWR) Whitepaper v1.0</h1>
+  <h1>Meowrth [$MEWR] Whitepaper</h1>
 
-<h2>📚 Table of Contents</h2>
-<ul>
-  <li><a href="#p1">1. Project Overview</a></li>
-  <li><a href="#p2">2. Tokenomics</a></li>
-  <li><a href="#p3">3. Technology & Ecosystem</a></li>
-  <li><a href="#p4">4. Roadmap</a></li>
-  <li><a href="#p5">5. Team & Community</a></li>
-  <li><a href="#risk">⚠️ Risk Disclaimer</a></li>
-</ul>
+  <nav>
+    <a href="#introduction">Introduction</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#technology">Technology</a>
+    <a href="#roadmap">Roadmap</a>
+    <a href="#team">Team</a>
+    <a href="#disclaimer">Disclaimer</a>
+  </nav>
 
-<hr>
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>Meowrth is the purrfect meme coin built on Solana.</p>
+    <p>With lightning-fast transactions and a passionate community of cat lovers, Meowrth aims to bring joy, fun, and value to the crypto world.</p>
+    <ul>
+      <li><strong>Project Name:</strong> Meowrth [$MEWR]</li>
+      <li><strong>Slogan:</strong> <em>The Purrfect Meme Coin on Solana</em></li>
+      <li><strong>Blockchain:</strong> Solana (SPL Token)</li>
+      <li><strong>Symbol:</strong> MEWR</li>
+      <li><strong>Launch Year:</strong> 2025</li>
+    </ul>
 
-<h2 id="p1">📄 1. Project Overview</h2>
-<pre>
-Project Name: Meowrth (MEWR)
-Slogan: *The Purrfect Meme Coin on Solana*
-Blockchain: Solana (SPL Token)
-Symbol: MEWR
-Launch Year: 2025
+    <p>🌟 <strong>Vision</strong>: Meowrth aims to go beyond being just a meme coin; it seeks to create a new cultural symbol in the Web3 era. Centered around the global meme character of the cat, it builds a community-driven economy where users worldwide can laugh, communicate, and actively contribute to the ecosystem.</p>
+    <blockquote>“Conquering the blockchain world with a single cat paw print.”</blockquote>
 
-🌟 Vision:
-Meowrth aims to go beyond being just a meme coin; it seeks to create a new cultural symbol in the Web3 era. Centered around the global meme character of the cat, it builds a community-driven economy where users worldwide can laugh, communicate, and actively contribute to the ecosystem.
+    <p>🌐 <strong>Mission</strong>:</p>
+    <ul>
+      <li>Providing a meme coin experience with no entry barriers</li>
+      <li>Combining Web3 utilities with community engagement</li>
+      <li>Realizing a DAO for global meme culture</li>
+    </ul>
+  </section>
 
-&gt; “Conquering the blockchain world with a single cat paw print.”
+  <section id="tokenomics">
+    <h2>Tokenomics</h2>
+    <p><strong>Total Supply:</strong> 100,000,000,000 MEWR</p>
+    <p><strong>Token Allocation:</strong></p>
+    <ul>
+      <li>40% Community</li>
+      <li>20% Development</li>
+      <li>20% Marketing</li>
+      <li>10% Liquidity</li>
+      <li>10% Reserve</li>
+    </ul>
+    <p>🧩 <strong>Tokenomics Strategy:</strong></p>
+    <ul>
+      <li>Community growth via airdrops and quest-based distribution</li>
+      <li>Supply reduction through burn mechanisms → increasing scarcity</li>
+      <li>Building liquidity trust with LP lockups</li>
+    </ul>
+    <p style="text-align: center;">Token Distribution Pie Chart</p>
+    <canvas id="tokenChart"></canvas>
+  </section>
 
-🌐 Mission:
-- Providing a meme coin experience with no entry barriers
-- Combining Web3 utilities with community engagement
-- Realizing a DAO for global meme culture
-</pre>
+  <section id="technology">
+    <h2>Technology & Ecosystem</h2>
+    <p>🚀 <strong>Technology Base:</strong></p>
+    <ul>
+      <li>Ultra-fast Solana network (TPS: thousands per second)</li>
+      <li>SPL token standard with smart contract and NFT compatibility</li>
+      <li>Modular design for future DAO and gaming integration</li>
+    </ul>
 
-<hr>
+    <p>🌐 <strong>Ecosystem Components:</strong></p>
+    <ul>
+      <li>MeowNFT Series – Community-driven meme NFT issuance</li>
+      <li>P2E Mini-game – Cat escape adventure game (planned Q4 2025)</li>
+      <li>MeowDAO – Community voting system for meme governance</li>
+      <li>MeowSocial – Meme-sharing reward-based social platform (in preparation)</li>
+    </ul>
 
-<h2 id="p2">📄 2. Tokenomics</h2>
+    <p>💻 <strong>Open Source Policy:</strong></p>
+    <ul>
+      <li>Smart contracts and key features open on GitHub</li>
+      <li>Open to PRs and community proposals</li>
+    </ul>
+  </section>
 
-<pre>
-Total Supply: 100,000,000,000 MEWR
+  <section id="roadmap">
+    <h2>Roadmap</h2>
+    <h3>✅ 2025 Q2</h3>
+    <ul>
+      <li>Launch website, whitepaper, and Twitter</li>
+      <li>Start community-based marketing</li>
+    </ul>
+    <h3>🚀 2025 Q3</h3>
+    <ul>
+      <li>Issue MEWR token</li>
+      <li>First airdrop campaign</li>
+      <li>Listing on DEXs such as Jupiter</li>
+      <li>Meow Meme contest</li>
+    </ul>
+    <h3>🎨 2025 Q4</h3>
+    <ul>
+      <li>First MeowNFT issuance</li>
+      <li>Partnerships (marketplaces, influencers, etc.)</li>
+      <li>Alpha testing of DAO</li>
+    </ul>
+    <h3>🎮 2026 Q1</h3>
+    <ul>
+      <li>Release P2E mini-game</li>
+      <li>Official launch of DAO</li>
+      <li>First community governance proposal voting</li>
+    </ul>
+    <h3>🌐 2026 Q2 and beyond</h3>
+    <ul>
+      <li>Global marketing campaigns</li>
+      <li>Expansion of meme-based DApp ecosystem</li>
+      <li>Multi-chain bridge considerations</li>
+    </ul>
+  </section>
 
-- Community Rewards: 40,000,000,000 / 40%
-- Team & Core Developers: 20,000,000,000 / 20% (12-month lockup)
-- Liquidity Provision: 20,000,000,000 / 20%
-- Marketing & Partnerships: 10,000,000,000 / 10%
-- Foundation / Reserve: 10,000,000,000 / 10%
+  <section id="team">
+    <h2>Team</h2>
+    <p>👩‍🚀 <strong>Meowrth Team – Feline Forces Behind the Meme</strong></p>
 
-🧩 Tokenomics Strategy:
-- Community growth via airdrops and quest-based distribution
-- Supply reduction through burn mechanisms → increasing scarcity
-- Building liquidity trust with LP lockups
-</pre>
+    <p><strong>$Catomi – Founder / Developer</strong><br>
+    A legendary hacker cat. One day, seeing a flashing hash value on a power line, decided to create Meowrth. Quiet by day, blockchain wizard by night.</p>
 
-<hr>
+    <p><strong>$Meowna Lisa – Designer</strong><br>
+    The Mona Lisa of the cat world. A mysterious designer crossing the boundaries of NFTs and memes. Every meme she creates goes viral. Identity unknown.</p>
 
-<h2 id="p3">📄 3. Technology & Ecosystem</h2>
-<pre>
-🚀 Technology Base:
-- Ultra-fast Solana network (TPS: thousands per second)
-- SPL token standard with smart contract and NFT compatibility
-- Modular design for future DAO and gaming integration
+    <p><strong>$HashWhisker – Community Lead</strong><br>
+    The community guardian cat patrolling Twitter and Discord 24/7. Hides hash values in his whiskers and uses one of his nine lives when in a hurry.</p>
 
-🌐 Ecosystem Components:
-1. MeowNFT Series – Community-driven meme NFT issuance
-2. P2E Mini-game – Cat escape adventure game (planned Q4 2025)
-3. MeowDAO – Community voting system for meme governance
-4. MeowSocial – Meme-sharing reward-based social platform (in preparation)
+    <p><strong>🧠 Advisory Group:</strong> To be elected after forming a community-centered DAO</p>
 
-💻 Open Source Policy:
-- Smart contracts and key features open on GitHub
-- Open to PRs and community proposals
-</pre>
+    <p>💬 <strong>Community Operation Strategy:</strong></p>
+    <ul>
+      <li>Interactive events: meme challenges, NFT contests, etc.</li>
+      <li>Reward activities: $MEWR rewards for posting articles, memes, meme cartoons</li>
+      <li>Transparent disclosure: monthly reports and voting results published</li>
+    </ul>
 
-<hr>
+    <p>🔗 <strong>Official Channels:</strong></p>
+    <ul>
+      <li>Website: meowrth.com</li>
+      <li>Twitter: @MarsMeowrth</li>
+      <li>Discord: Coming soon</li>
+      <li>GitHub: Coming soon</li>
+      <li>Email: meowrth@meowrth.com</li>
+    </ul>
+  </section>
 
-<h2 id="p4">📄 4. Roadmap</h2>
-<pre>
-✅ 2025 Q2
-- Launch website, whitepaper, and Twitter
-- Start community-based marketing
+  <section id="disclaimer">
+    <h2>Disclaimer</h2>
+    <p>This whitepaper is for informational purposes only. It does not constitute investment advice, a solicitation, or an offer to buy or sell any securities or tokens.</p>
+    <p>The Meowrth [$MEWR] token is a meme-based digital asset created for entertainment, community engagement, and experimentation in the Web3 ecosystem. It does not represent any ownership, equity, security, or legal claim in any jurisdiction.</p>
+    <p>Participation in MEWR or related activities involves substantial risks, including potential loss of capital. The value of meme tokens can be highly volatile and influenced by speculation, trends, and social sentiment.</p>
+    <p>Please conduct your own research (DYOR) and consult with professional advisors before making any financial decisions. Meowrth assumes no responsibility for any loss, liability, or damages arising from the use of this information or participation in the MEWR project.</p>
+  </section>
 
-🚀 2025 Q3
-- Issue MEWR token
-- First airdrop campaign
-- Listing on DEXs such as Jupiter
-- Meow Meme contest
+  <footer>
+    &copy; 2025 Meowrth Team. All rights reserved.
+  </footer>
 
-🎨 2025 Q4
-- First MeowNFT issuance
-- Partnerships (marketplaces, influencers, etc.)
-- Alpha testing of DAO
-
-🎮 2026 Q1
-- Release P2E mini-game
-- Official launch of DAO
-- First community governance proposal voting
-
-🌐 2026 Q2 and beyond
-- Global marketing campaigns
-- Expansion of meme-based DApp ecosystem
-- Multi-chain bridge considerations
-</pre>
-
-<hr>
-
-<h2 id="p5">📄 5. Team & Community</h2>
-<pre>
-👩‍🚀 Meowrth Team – Feline Forces Behind the Meme
-
-$Catomi – Founder / Developer
-"A legendary hacker cat. One day, seeing a flashing hash value on a power line, decided to create Meowrth. Quiet by day, blockchain wizard by night."
-
-$Meowna Lisa – Designer
-"The Mona Lisa of the cat world. A mysterious designer crossing the boundaries of NFTs and memes. Every meme she creates goes viral. Identity unknown."
-
-$HashWhisker – Community Lead
-"The community guardian cat patrolling Twitter and Discord 24/7. Hides hash values in his whiskers and uses one of his nine lives when in a hurry."
-
-🧠 Advisory Group: To be elected after forming a community-centered DAO
-
-💬 Community Operation Strategy:
-- Interactive events: meme challenges, NFT contests, etc.
-- Reward activities: $MEWR rewards for posting articles, memes, meme cartoons
-- Transparent disclosure: monthly reports and voting results published
-
-🔗 Official Channels:
-- Website: <a href="https://www.meowrth.com" target="_blank">meowrth.com</a>
-- Twitter: <a href="https://x.com/MarsMeowrth" target="_blank">@MarsMeowrth</a>
-- Discord: Coming soon
-- GitHub: Coming soon
-- Email: meowrth@meowrth.com
-</pre>
-
-<hr>
-
-<h2 id="risk">⚠️ Risk Disclaimer</h2>
-<pre>
-The Meowrth (MEWR) token is a meme-based digital asset created for entertainment, community engagement, and experimentation in the Web3 ecosystem. It does not represent any ownership, equity, security, or legal claim in any jurisdiction.
-
-Participation in MEWR or related activities involves substantial risks, including potential loss of capital. The value of meme tokens can be highly volatile and influenced by speculation, trends, and social sentiment.
-
-This whitepaper is for informational purposes only and does not constitute financial, legal, or investment advice. Please conduct your own research (DYOR) and consult with professional advisors before making any financial decisions.
-
-Meowrth assumes no responsibility for any loss, liability, or damages arising from the use of this information or participation in the MEWR project.
-</pre>
-
-<footer>
-  <p style="margin-top: 1rem; font-size: 0.875rem;">© One Day in May 2025 Meowrth. All rights reserved.</p>
-</footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const ctx = document.getElementById('tokenChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'pie',
+      data: {
+        labels: ['Community', 'Development', 'Marketing', 'Liquidity', 'Reserve'],
+        datasets: [{
+          label: 'Token Distribution',
+          data: [40, 20, 20, 10, 10],
+          backgroundColor: ['#ff6384', '#36a2eb', '#ffce56', '#9966ff', '#ff9f40'],
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            labels: { color: '#fff' }
+          }
+        }
+      }
+    });
+  </script>
 </body>
 </html>
