@@ -1,6 +1,6 @@
 # Meowrth ($MEWR)
 
-🐾 The Purrfect Meme Coin on Solana
+##🐾 The Purrfect Meme Coin on Solana
 
 ---
 
