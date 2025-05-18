@@ -13,7 +13,7 @@ A decentralized project growing with the community, featuring a deflationary tok
 
 ## **Website**
 
-[https://meowrth.com/](https://meowrth.com)
+[https://meowrth.com]
 
 ---
 
@@ -34,14 +34,16 @@ Please refer to the `whitepaper.html` file.
 
 ## **Follow us**
 
-- **Twitter:** [https://x.com/MarsMeowrth](https://x.com/MarsMeowrth)  
-- **GitHub:** [https://github.com/Meowrth/meowrth-homepage](https://github.com/Meowrth/meowrth-homepage)
+- **Twitter:** [https://x.com/MarsMeowrth]
+- **GitHub:** [https://github.com/Meowrth/meowrth-homepage]
 
 ---
 
 ## **License**
 
 Distributed under the MIT License.
+
+© 2025 Meowrth. All rights reserved.
 
 
 # **Meowrth ($MEWR)**
@@ -59,13 +61,13 @@ Distributed under the MIT License.
 
 ## **웹사이트 (Website)**
 
-[https://meowrth.com/](https://meowrth.com)
+[https://meowrth.com]
 
 ---
 
 ## **백서 (Whitepaper)**
 
-[whitepaper.html](whitepaper.html) 파일을 참고하세요.
+[whitepaper.html] 파일을 참고하세요.
 
 ---
 
@@ -80,11 +82,14 @@ Distributed under the MIT License.
 
 ## **팔로우하기 (Follow us)**
 
-- **Twitter:** [https://x.com/MarsMeowrth](https://x.com/MarsMeowrth)  
-- **GitHub:** [https://github.com/Meowrth/meowrth-homepage](https://github.com/Meowrth/meowrth-homepage)
+- **Twitter:** [https://x.com/MarsMeowrth]
+- **GitHub:** [https://github.com/Meowrth/meowrth-homepage]
 
 ---
 
 ## **라이선스 (License)**
 
 Distributed under the MIT License.
+
+© 2025 Meowrth. All rights reserved.
+
