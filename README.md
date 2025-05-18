@@ -4,7 +4,7 @@
 
 ## 🔹 About
 
-Meowrth [MEWR] — From Mars to Earth, a Meme Awakens
+Meowrth [$MEWR] — From Mars to Earth, a Meme Awakens
 
 Meowrth is not just a meme coin.
 It is the story of a cat — a curious soul from the cold and lonely plains of Mars — searching for warmth, laughter, and life.
@@ -91,7 +91,7 @@ Distributed under the MIT License.
 
 ## 🔹 소개
 
-Meowrth [MEWR] — 화성에서 지구로, 밈의 깨어남
+Meowrth [#MEWR] — 화성에서 지구로, 밈의 깨어남
 
 Meowrth는 단순한 밈 코인이 아닙니다.
 이것은 한 마리 고양이의 이야기입니다 — 차갑고 외로운 화성 평원에서 따뜻함, 웃음, 그리고 생명을 찾아 떠난 호기심 많은 존재의 이야기입니다.
@@ -130,7 +130,7 @@ Meowrth는 예술가, 애니메이터, 밈 장인들을 위한 놀이터입니�
 
 Meowrth 대이동에 합류하세요
 
-당신이 디젠이든, 몽상가든, 그냥 고양이를 좋아하는 사람이든 — Meowrth는 당신을 환영합니다.
+당신이 몽상가든, 그냥 고양이를 좋아하는 사람이든 — Meowrth는 당신을 환영합니다.
 당신의 밈, 친구들, 아이디어를 가져오세요. 한 발 한 발, 새로운 문화를 함께 만들어 갑시다.
 고양이들은 착륙했습니다. 이제 재미가 시작됩니다.
 
