@@ -80,7 +80,7 @@ Please refer to the [`whitepaper`](https://meowrth.com/whitepaper).
 
 ---
 
-## 🧾 License
+## 🧾 License © 2025 Meowrth. All rights reserved.
 
 Distributed under the MIT License.  
 
@@ -89,4 +89,4 @@ Distributed under the MIT License.
 ## 📌 Disclaimer
 
 This document is not investment advice. Meme coins are highly volatile. Please DYOR (Do Your Own Research)!
-© 2025 Meowrth. All rights reserved.
+
