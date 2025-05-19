@@ -28,25 +28,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN  
 THE SOFTWARE.**
-
-# **MIT 라이선스**
-
----
-
-## **저작권 (c) 2025 Meowrth**
-
----
-
-### **본 소프트웨어 및 관련 문서 파일(이하 "소프트웨어")의 복사본을 취득하는 모든 사람에게,  
-소프트웨어를 무상으로 사용, 복사, 수정, 병합, 출판, 배포, 서브라이선스, 판매할 수 있는 권리를  
-제한 없이 허가합니다. 단, 아래 조건을 준수해야 합니다.**
-
----
-
-**위 저작권 표시 및 이 허가 표시문구는 소프트웨어의 모든 복사본 또는 주요 부분에 포함되어야 합니다.**
-
----
-
-### **본 소프트웨어는 상품성, 특정 목적 적합성 및 비침해에 대한 묵시적 보증을 포함하되 이에  
-한정되지 않는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. 저자 또는 저작권자는 소프트웨어나  
-그 사용 또는 기타 거래와 관련하여 발생하는 모든 청구, 손해 또는 기타 책임에 대하여 책임을 지지 않습니다.**
