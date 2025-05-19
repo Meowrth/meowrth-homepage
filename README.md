@@ -89,5 +89,4 @@ Distributed under the MIT License.
 ## 📌 Disclaimer
 
 This document is not investment advice. Meme coins are highly volatile. Please DYOR (Do Your Own Research)!
-
-                      © 2025 Meowrth. All rights reserved.
+                                     © 2025 Meowrth. All rights reserved.
