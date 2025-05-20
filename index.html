@@ -1,628 +1,341 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Meowrth[MEWR]</title>
-  <meta name="description" content="Meowrth[$MEWR] - Solana 기반의 귀여운 밈코인, 최고의 Purrfect Meme Coin. 커뮤니티와 함께 성장하는 밈코인 프로젝트입니다." />
-  <meta name="keywords" content="Meowrth, MEWR, 밈코인, Solana, Meme Coin, 크립토, 암호화폐" />
-  <meta name="author" content="Meowrth Team" />
-  <!-- Open Graph -->
-  <meta property="og:title" content="Meowrth[$MEWR] - The Purrfect Meme Coin on Solana" />
-  <meta property="og:description" content="귀여운 밈코인 Meowrth가 Solana 블록체인 위에 등장했습니다. 지금 커뮤니티와 함께 참여하세요!" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.meowrth.com/" />
-  <meta property="og:image" content="https://www.meowrth.com/images/logo.png" />
-  <meta property="og:image:alt" content="Meowrth[$MEWR] Logo" />
-  <meta name="twitter:image" content="https://www.meowrth.com/images/logo.png" />
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="@MarsMeowrth" />
-  <meta name="twitter:title" content="Meowrth[$MEWR] - The Purrfect Meme Coin on Solana" />
-  <meta name="twitter:description" content="귀여운 밈코인 Meowrth가 Solana 블록체인 위에 등장했습니다. 지금 커뮤니티와 함께 참여하세요!" />
-  <meta name="twitter:image" content="https://meowrth-coin.netlify.app/images/og-image.png" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  
-  <!-- 구글폰트 Noto Sans KR 추가 -->
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet" />
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hambubter - Too Hungry to Stop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    /* 기본 바디 및 배경 */
     body {
-      background: url('images/space-bg.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: #e0d7f5;
-      font-family: 'Noto Sans KR', Arial, sans-serif;
       margin: 0;
-      padding: 0 15px;
-      position: relative;
-      z-index: 0;
-      padding-top: 56px; /* nav 고정 대응 */
-      -webkit-user-select: none !important;
-      -moz-user-select: none !important;
-      -ms-user-select: none !important;
-      user-select: none !important;
-    }
-
-    body::before {
-      content: "";
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background-color: rgba(0, 0, 0, 0.5);
-      z-index: -1;
-    }
-
-    /* 상단 네비게이션 바 */
-    .top-nav {
-      background-color: rgba(26, 26, 46, 0.85);
-      backdrop-filter: saturate(180%) blur(10px);
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 9999;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.6);
-    }
-
-    .top-nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 10px 20px;
-      display: flex;
-      justify-content: center;
-      gap: 40px;
-    }
-
-    .top-nav ul li {
-      margin: 0;
-    }
-
-    .top-nav ul li a {
-      color: #a394c7;
-      text-decoration: none;
-      font-weight: 700;
-      font-family: 'Noto Sans KR', sans-serif;
-      font-size: 1rem;
-      transition: color 0.3s ease;
-    }
-
-    .top-nav ul li a:hover,
-    .top-nav ul li a:focus {
-      color: #ff81d9;
-      outline: none;
-    }
-
-    @media (max-width: 600px) {
-      .top-nav ul {
-        gap: 20px;
-        padding: 10px;
-        font-size: 0.9rem;
-      }
-    }
-
-    /* 헤더 */
-    header.banner-header {
-      text-align: center;
-      margin-top: 20px;
-      position: relative;
-      z-index: 1;
-    }
-
-    header.banner-header .main-title {
-      font-weight: 700;
-      margin-bottom: 8px;
-    }
-
-    header.banner-header .tagline {
-      font-size: 1.2rem;
-      font-weight: 500;
-      color: #b9a8e0;
-      margin-bottom: 10px;
-    }
-
-    header.banner-header .quote {
-      font-style: italic;
-      color: #d4c5f9;
-      margin-bottom: 6px;
-    }
-
-    header.banner-header .mystic {
-      font-family: monospace;
-      font-size: 1.1rem;
-      color: #9b88c2;
-    }
-
-    /* 메인 컨텐츠 레이아웃 */
-    main {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      max-width: 900px;
-      margin: 30px auto;
-      padding: 0 20px;
-      font-size: 1.1rem;
+      font-family: 'Nunito', sans-serif;
+      background-color: #fff8ec;
+      color: #444;
       line-height: 1.6;
-      color: #e0d7f5;
-      gap: 20px;
-      position: relative;
-      z-index: 1;
     }
-
-    main > div:first-child {
-      flex: 1;
-      background-color: rgba(26, 26, 46, 0.6);
-      padding: 20px;
-      border-radius: 8px;
+    h1, h2, h3 {
+      font-family: 'Fredoka One', cursive;
+      color: #5e3200;
     }
-
-    main img {
-      max-height: 240px;
-      width: auto;
-      position: relative;
-      z-index: 1;
-    }
-
-    /* 헤더 로고 애니메이션용 (필요 시 이미지에 적용) */
-    @keyframes floatLeftRight {
-      0%, 100% {
-        transform: translateX(0);
-      }
-      50% {
-        transform: translateX(40px);
-      }
-    }
-
-    /* 섹션 스타일 */
-    section {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-      position: relative;
-      z-index: 1;
-    }
-
-    h2 {
-      font-weight: bold;
-      margin-bottom: 10px;
-      color: #a394c7;
-    }
-
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-
-    /* 버튼 스타일 */
-    .btn {
-      display: inline-block;
-      background-color: #a394c7;
-      color: #1a1a2e;
-      font-weight: bold;
-      padding: 10px 20px;
-      margin: 5px 10px 5px 0;
-      text-decoration: none;
-      border-radius: 5px;
-      transition: background-color 0.3s ease;
-      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
-    }
-    .btn:hover {
-      background-color: #8b7fc1;
-      color: white;
-    }
-
-    /* 풋터 */
-    footer {
-      text-align: center;
-      margin: 40px auto 20px;
-      color: #a394c7;
-      font-size: 0.9rem;
-      position: relative;
-      z-index: 1;
-    }
-
-    footer a {
-      display: inline-flex;
+    header {
+      background-color: #fbdc8e;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
       align-items: center;
-      gap: 8px;
-      color: #a394c7;
+    }
+    nav a {
+      margin: 0 1rem;
       text-decoration: none;
+      color: #5e3200;
+      font-weight: 600;
     }
-
-    footer img {
-      filter: drop-shadow(0 0 2px red);
-      width: 24px;
-      height: 24px;
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(to bottom, #fff2cc, #ffe1a8);
     }
-
-    /* 반응형 */
-    @media (max-width: 768px) {
-      main {
-        flex-direction: column;
-        padding: 0 10px;
-      }
-
-      main > div:first-child {
-        margin-right: 0;
-      }
-
-      main img {
-        max-height: 180px;
-        margin-top: 20px;
-      }
-
-      .btn {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
-      }
-
-      section {
-        margin: 30px 0;
-        padding: 0 10px;
-      }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
     }
-  </style>
-</head>
-
-<body>
-  <header>
-    <nav class="top-nav">
-      <ul>
-      <li><a href="#home">HOME</a></li>
-      <li><a href="#technical-overview">Technical Overview</a></li>
-      <li><a href="#roadmap">Roadmap</a></li>
-      <li><a href="#Team">Meowrth Team</a></li>
-      <li><a href="#community">Community</a></li>
-    </ul>
-  </nav>
-</header>
-
-<style>
-  .top-nav {
-    background-color: rgba(26, 26, 46, 0.85);
-    backdrop-filter: saturate(180%) blur(10px);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
-  }
-
-  .top-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-  }
-
-  .top-nav ul li {
-    margin: 0;
-  }
-
-  .top-nav ul li a {
-    color: #a394c7;
-    text-decoration: none;
-    font-weight: 700;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size: 1rem;
-    transition: color 0.3s ease;
-  }
-
-  .top-nav ul li a:hover,
-  .top-nav ul li a:focus {
-    color: #ff81d9;
-    outline: none;
-  }
-
-  body {
-    padding-top: 56px;
-  }
-
-  @media (max-width: 600px) {
-    .top-nav ul {
-      gap: 20px;
-      padding: 10px;
-      font-size: 0.9rem;
-    }
-  }
-    body, body * {
-      -webkit-user-select: none !important;
-      -moz-user-select: none !important;
-      -ms-user-select: none !important;
-      user-select: none !important;
-    }
-</style>
-
-<body>
-<header class="banner-header">
-  <h1 class="main-title">Meowrth [MEWR]</h1>
-  <p class="tagline">The Purrfect Meme Coin on Solana</p>
-  <h2 class="quote">“Let's pack up! Let's go to Earth — 'Meowrth' is calling us!”</h2>
-  <h3 class="mystic">MΞӨШRҬH – ♒⌖⊑⊐ Ϟᘎ☋↭⊰ on ⊡⟊⧫⧆</h3>
-</header>
-
-  <main>
-    <div>
-<section class="meowrth-story">
-  <h2>Meowrth [MEWR] — From Mars to Earth, a Meme Awakens</h2>
-  <p>
-    Meowrth is not just a meme coin.<br>
-    It is the story of a cat — a curious soul from the cold and lonely plains of Mars — searching for warmth, laughter, and life.
-  </p>
-  <p>
-    For ages, Mars had been silent.<br>
-    No sounds of joy, no traces of memes, and certainly no meows echoing through the dusty valleys.<br>
-    The cat wandered alone under the red sky, dreaming of a world filled with dance, energy, and meme magic.<br>
-    It knew — <strong>memes need more than just a network. They need a community.</strong>
-  </p>
-  <p>
-    Then one day, it looked through the stars and saw Earth — vibrant, chaotic, full of internet cats, and endless creativity.<br>
-    And the decision was made:<br>
-    <em>“Let’s leave Mars behind. Let’s go home. Let’s go to... Meowrth.”</em>
-  </p>
-
-  <h3>The Birth of Meowrth</h3>
-  <p>
-    Meowrth is the cat’s dream realized.<br>
-    A blockchain-based paradise built on Solana — fast, fearless, and feline-approved.<br>
-    It’s a place where creators, cat lovers, and meme warriors gather to do what they do best:<br>
-    <strong>have fun, share joy, and shape the future of decentralized culture.</strong>
-  </p>
-  <p>
-    Unlike typical meme coins that rise and fall with the hype, Meowrth is driven by a purpose:<br>
-    to nurture a <strong>sustainable meme economy</strong> powered by its own community.<br>
-    It’s an ecosystem where everyone has a voice, where memes are assets, and where play is just as valuable as profit.
-  </p>
-
-  <h3>What Makes Meowrth Purr?</h3>
-  <ul class="features">
-    <li>
-      <strong>🎨 Creator-Friendly Culture</strong><br>
-      Meowrth is a playground for artists, animators, and meme lords. Whether you're a shitposter or a serious illustrator, this is your home.
-    </li>
-    <li>
-      <strong>💬 Community-Driven Economy</strong><br>
-      Tokenomics built for people — not whales. Fair distribution, governance participation, and rewards that actually matter.
-    </li>
-    <li>
-      <strong>🎉 Vibrant, Cross-Planetary Vibes</strong><br>
-      From Mars to Earth, from meme to meaning. Meowrth is more than a token — it’s a movement, a mood, a meowvolution.
-    </li>
-    <li>
-      <strong>⚡ Powered by Solana</strong><br>
-      With low fees and lightning speed, Meowrth lives where the chain moves fast — because cats don’t wait.
-    </li>
-  </ul>
-
-  <h3>Join the Meowrth Migration</h3>
-  <p>
-    Whether you're a degenerate, a dreamer, or just a human who likes cats — Meowrth welcomes you.<br>
-    Bring your memes, your friends, your ideas. Let’s build a new culture, one paw at a time.<br>
-    The cats have landed. The fun has begun.
-  </p>
-  <p class="final-quote">
-    <strong>“We came from Mars, but Earth is our Meowrth.”</strong><br>
-    Are you ready to pounce?
-  </p>
-</section>
-   </div>
-</main>
-
-<section id="technical-overview" style="margin-top: 40px; padding: 20px;">
-  <h2>Technical Overview</h2>
-  <ul style="list-style-type: none; padding-left: 0;">
-    <li><strong>Blockchain:</strong> Solana</li>
-    <li><strong>Token Standard:</strong> SPL (Solana Program Library)</li>
-    <li><strong>Smart Contract Address:</strong> 5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray</li>
-    <li><strong>Block Explorer:</strong> 
-      <a href="https://explorer.solana.com/address/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" 
-         target="_blank" rel="noopener noreferrer"
-         style="display:inline-block; padding:6px 12px; background:#4F46E5; color:#fff; border-radius:4px; text-decoration:none; font-weight:bold; font-size:12px;">
-        View MEWR Token on Solana Explorer
-      </a>
-    </li>
-    <li><strong>Verification Status:</strong> Officially Verified & Audited</li>
-    <li><strong>Total Supply:</strong> 10,000,000,000 MEWR</li>
-    <li><strong>Transaction Speed:</strong> Average under 400ms</li>
-    <li><strong>Fees:</strong> Ultra-low fees, approx. $0.00025 per transaction</li>
-    <li><strong>Scalability:</strong> Supports thousands of TPS, easy NFT and DApp integration</li>
-    <li><strong>Security:</strong> Rust-based smart contracts using verified SPL standards</li>
-    <li><strong>Compatibility:</strong> Fully compatible with Phantom, Solflare, and other Solana wallets</li>
-    <li><strong>Future Plans:</strong>
-      <ul>
-        <li>Launch of Meowrth dedicated DApp</li>
-        <li>Development of Meowrth staking program</li>
-        <li>Cross-chain expansion (considering EVM / Layer-2)</li>
-        <li>On-chain governance integration (DAO linkage)</li>
-      </ul>
-    </li>
-  </ul>
-</section>
-
-<section id="roadmap">
-  <h2>Roadmap</h2>
-  <ul style="list-style: disc inside; padding-left: 0;">
-    <li>
-      <strong>Q2 2025:</strong> Genesis of Meowrth – Token launch, website & community rollout
-    </li>
-    <li>
-      <strong>Q3 2025:</strong> Expansion & Engagement – DEX listing, meme contests, and social growth
-    </li>
-    <li>
-      <strong>Q4 2025:</strong> Creativity Unleashed – NFT collaborations & Global Meme Championship
-    </li>
-    <li>
-      <strong>Q1 2026:</strong> DAO Structuring – Community governance framework launch
-    </li>
-    <li>
-      <strong>Q2 2026:</strong> Merch & Memeverse – Official Meowrth merch drop and meme metaverse prototype
-    </li>
-    <li>
-      <strong>Q3 2026:</strong> Global Expansion – Cross-chain bridge & multilingual community onboarding
-    </li>
-    <li>
-      <strong>Q4 2026:</strong> Memeconomy 2.0 – Creator rewards, on-chain tipping & Meowrth utility expansion
-    </li>
-  </ul>
-</section>
-
-<section id="Team" style="max-width: 900px; margin: 40px auto; padding: 20px; color: #3a1a3a; font-family: 'Arial', sans-serif;">
-  <h2 style="font-weight: 700; font-size: 2rem; margin-bottom: 24px; color: #7b3fa1;">
-    Meowrth Team – Feline Forces Behind the Meme
-</h2>
-
-  <div style="display: flex; flex-direction: column; gap: 16px;">
-      <h3 style="margin: 0 0 6px 0; font-weight: 700; color: #6e297d;">Meowrth is powered by anonymous cat lovers and crypto builders:</h3>
-      <p style="margin: 0; font-size: 1rem; line-height: 1.5; color: #4a204a;">
-    <div>
-      <h3 style="margin: 0 0 6px 0; font-weight: 700; color: #6e297d;">CatDev - Smart Contract Lead</h3>
-      <p style="margin: 0; font-size: 1rem; line-height: 1.5; color: #4a204a;">
-        A legendary hacker cat. One day, upon seeing a flashing hash value on a power line, decided to create Meowrth. Quiet by day, blockchain wizard by night.
-      </p>
-    </div>
-    
-    <div>
-      <h3 style="margin: 0 0 6px 0; font-weight: 700; color: #6e297d;">Meowster - Community Manager</h3>
-      <p style="margin: 0; font-size: 1rem; line-height: 1.5; color: #4a204a;">
-        The Mona Lisa of the cat world. A mysterious designer crossing the boundaries of NFTs and memes. Every meme she creates goes viral. Identity unknown.
-      </p>
-    </div>
-    
-    <div>
-      <h3 style="margin: 0 0 6px 0; font-weight: 700; color: #6e297d;">Pawroar - Creative & Marketing</h3>
-      <p style="margin: 0; font-size: 1rem; line-height: 1.5; color: #4a204a;">
-        The community guardian cat patrolling Twitter and Discord 24/7. Hides hash values in his whiskers and uses one of his nine lives when in a hurry.
-      </p>
-    </div>
-
-</section>
-
- <section id="community">
-  <h2>Join the Community</h2>
-  <a href="https://t.me/MarsMeowrth" target="_blank" rel="noopener noreferrer" class="btn">Join on Telegram</a>
-  <a href="https://x.com/MarsMeowrth" target="_blank" rel="noopener noreferrer" class="btn">Follow on Twitter</a>
-</section>
-
-<section id="trade-on">
-  <h2>Trade on These Platforms</h2>
-  <a href="https://phantom.com/tokens/solana/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray?referralId=flnhfaz461" target="_blank" rel="noopener noreferrer" class="btn">Trade on Phantom</a>
-  <a href="https://jup.ag/tokens/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" rel="noopener noreferrer" class="btn">Trade on Jupiter</a>
-  <a href="https://raydium.io/launchpad/token/?mint=5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" rel="noopener noreferrer" class="btn">Trade on Raydium</a>
-  <a href="https://solscan.io/token/5192N89PXD1oPwd1XLXy5bRDvaoUv6gRyHUJ746Tjray" target="_blank" rel="noopener noreferrer" class="btn">View on Solscan</a>
-  <p class="disclaimer" style="margin-top:1rem; color:#ffb3d9; font-style: italic;">
-  $$Meme coins can be unpredictable. Please understand the risks before investing.$$
-</p>
-</section>
-
-  <footer style="text-align: center; padding: 1.5rem 0; background-color: #1a1a1a; color: #fff;">
-  <style>
-    .footer-link {
-      position: relative;
-      font-weight: 900;
+    .hero p {
       font-size: 1.2rem;
-      text-decoration: none;
-      background: linear-gradient(270deg, #ff3ccf, #3cefff, #ff3ccf, #3cefff);
-      background-size: 800% 100%;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: holo-gradient-strong 3s ease infinite;
-      text-shadow:
-        0 0 8px #ff3ccf,
-        0 0 15px #3cefff,
-        0 0 20px #ff3ccf,
-        0 0 30px #3cefff,
-        0 0 40px #ff3ccf;
-      transition: text-shadow 0.3s ease;
+      color: #804000;
     }
-    .footer-link.telegram-link {
-      background: linear-gradient(270deg, #3cefff, #ff3ccf, #3cefff, #ff3ccf);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: holo-gradient-strong 3s ease infinite reverse;
+    .section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fffdf6;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
-    .footer-link:hover {
-      animation-play-state: paused;
-      text-shadow:
-        0 0 15px #ff81d9,
-        0 0 25px #7bf0ff,
-        0 0 35px #ff81d9,
-        0 0 45px #7bf0ff,
-        0 0 55px #ff81d9;
+    .btn {
+      background-color: #ffad60;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
       cursor: pointer;
+      border-radius: 20px;
+      margin: 1rem 0.5rem;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
     }
-    @keyframes holo-gradient-strong {
-      0% {
-        background-position: 0% 0%;
-      }
-      50% {
-        background-position: 100% 0%;
-      }
-      100% {
-        background-position: 0% 0%;
-      }
+    footer {
+      background-color: #fbdc8e;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.95rem;
     }
-  </style>
-<!-- Whitepaper 버튼 -->
-<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; align-items: center; margin-top: 15px;">
-  <a href="https://meowrth.com/whitepaper" target="_blank" rel="noopener noreferrer" class="footer-link">📄 View Whitepaper
-  </a>
-</div>
-
-<!-- 공식 채널 정보 -->
-<div style="text-align: center; margin-top: 20px;">
-  <p><strong>Official Channels:</strong></p>
-  <ul style="list-style: none; padding: 0; font-size: 16px;">
-    <li>Website: <a href="https://meowrth.com" target="_blank">meowrth.com</a></li>
-    <li>Twitter: <a href="https://twitter.com/MarsMeowrth" target="_blank">@MarsMeowrth</a></li>
-    <li>GitHub: <a href="https://github.com/Meowrth/meowrth-homepage" target="_blank">https://github.com</a></li>
-    <li>Discord: <span class="muted">Coming soon</span></li>
-  <li>Email: 
-    <a href="mailto:Developer@meowrth.com">CatDev</a>, 
-    <a href="mailto:Designer@meowrth.com">Meowster</a>, 
-    <a href="mailto:Community@meowrth.com">Pawroar</a>
-   </li>
-  </ul>
-</div>
-
-<!-- Twitter / Telegram 링크 -->
-<div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; align-items: center; margin-top: 25px;">
-  <a href="https://x.com/MarsMeowrth" target="_blank" rel="noopener noreferrer" class="footer-link">
-    🐦 Follow on Twitter
-  </a>
-  <a href="https://t.me/MarsMeowrth" target="_blank" rel="noopener noreferrer" class="footer-link telegram-link">
-    💬 Join Telegram
-  </a>
-</div>
-
-<!-- 스타일 정의 -->
-<style>
-  .footer-link {
-    font-family: 'Courier New', monospace;
-    font-size: 16px;
-    text-decoration: none;
-    padding: 10px 18px;
-    border-radius: 10px;
-    background-color: #202020;
+    .highlight {
+      color: #ff944d;
+      font-weight: 700;
+    }
+  .fixed-whitepaper-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #ffb347;
+    border: none;
+    padding: 0.75rem 1.2rem;
     color: #fff;
-    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
-    transition: background-color 0.2s, color 0.2s;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
   }
 
-  .footer-link:hover {
-    background-color: #444;
-    color: #ff8dd8;
+  @media (max-width: 768px) {
+    .fixed-whitepaper-btn {
+      font-size: 0.9rem;
+      padding: 0.6rem 1rem;
+      top: 0.75rem;
+      right: 0.75rem;
+    }
   }
 
-  .muted {
-    color: #999;
-    font-style: italic;
+  @media (max-width: 480px) {
+    .fixed-whitepaper-btn {
+      font-size: 0.8rem;
+      padding: 0.5rem 0.9rem;
+      top: 0.5rem;
+      right: 0.5rem;
+    }
   }
 </style>
-  <p style="margin-top: 1rem; font-size: 0.875rem;">© One Day in May 2025 Meowrth. All rights reserved.</p>
-</footer>
+</head>
+  <section class="hero">
+<button class="btn fixed-whitepaper-btn" onclick="location.href='https://hambubter.com/whitepaper.html'>View Whitepaper</button>
+  <h1>Too Hungry to Stop</h1>
+<p class="highlight">"The unstoppable appetite of Hambubter [$HBUB]!"</p>
+<p class="highlight">"A cute and crazy meme revolution born from hamster, butter, and bread!"</p>
+  </section>
 
-<script>
-  document.addEventListener('contextmenu', event => event.preventDefault());
-</script>
+<section class="section" id="about">
+  <h2>What is Hambubter?</h2>
+  <p><strong>Hambubter [$HBUB]</strong> is a one-of-a-kind meme coin born from the fusion of three irresistible forces: Hamster, Butter, and Bun.</p>
+  <p>This greedy yet adorable hamster clutches butter in one paw and bread in the other, shouting to the world — <strong>"Bake it! Then earn it!"</strong></p>
+  <p>The <strong>Hambubter [$HBUB]</strong> species is far from your average hamster.</p>
+  <p>Driven by insatiable hunger and profit desire, they interpret every blockchain activity as a unique form of <strong>“Baking.”</strong></p>
+  <p>For them, swapping is <strong>“spreading butter and baking it,”</strong> while adding liquidity means <strong>“kneading the dough and stacking the buns.”</strong></p>
+  <p><strong>Hambubter [$HBUB]</strong> goes beyond laughs — it cleverly reinterprets complex blockchain and DeFi concepts through a fun and accessible lens, creating a deeply immersive universe for users.</p>
+  <p>From the charming character design and solid tokenomics to the ever-evolving NFT baking collections and community events — <strong>Hambubter [$HBUB]</strong> isn't just a meme, it's a dynamic Web3 playground where participation, profits, humor, and storytelling collide.</p>
+  <p>Now it's your turn to stack your buns, spread your butter, and join the Hambubter tribe to <strong>“Bake, Laugh, and Earn.”</strong></p>
+  <p style="font-size: 2rem; font-weight: 900; color: #5e3200; text-align: center;">
+    <strong>[$HBUB] Welcome to the oven.</strong>
+  </p>
+</section>
+
+<section class="section" id="upcoming">
+  <h2>NFT Preview - Expected to be Released -</h2>
+  <p><strong>Hambubter bakes buns — and that, itself, is an art form!</strong></p>
+  <p>
+    The upcoming <strong>Hambubter [$HBUB] NFT series</strong> is more than just digital images. 
+    Each NFT varies in rarity based on delicious attributes like 
+    <em>butter amount, bread type, baking level, and toppings</em>, 
+    and they even come with <strong>savory and crispy utility functions</strong>.
+  </p>
+  <p>
+    These NFTs are the core of the "Baking Economy" within the Hambubter [$HBUB] universe. 
+    Beyond collecting, they offer <strong>real benefits</strong> such as token rewards, exclusive event access, 
+    and community ranking perks.
+  </p>
+  <p>
+    Some legendary NFTs are even coated with <strong>Golden Butter</strong>, unlocking transaction fee discounts, 
+    airdrop priority access, and more.
+  </p>
+  <p>
+    Every NFT is a digital masterpiece <em>baked by Hambubter’s finest artisans</em>. 
+    From toasty textures to buttery aromas (digitally rendered!), this unique design experience 
+    offers <strong>satisfaction for both collectors and investors</strong>.
+  </p>
+  <p style="font-size: 1.25rem; font-weight: bold; color: #5e3200; text-align: center;">
+    Bake smart, earn smarter — that's the Hambubter [$HBUB] way!
+  </p>
+</section>
+<section class="section" id="rarity">
+  <h2>NFT Rarity Guide - Expected to be Released -</h2>
+  <p>The rarity of each NFT is determined by the level of baking, type of butter, and topping combinations.</p>
+  <p>Check out the delicious rarity chart below, baked to perfection by the Hambubter [$HBUB] artisans!</p>
+  <table style="width:100%; border-collapse: collapse; margin-top: 1.5rem;">
+    <thead style="background-color: #fbdc8e;">
+      <tr>
+        <th style="padding: 1rem; border: 1px solid #e0c38c;">Tier</th>
+        <th style="padding: 1rem; border: 1px solid #e0c38c;">Name</th>
+        <th style="padding: 1rem; border: 1px solid #e0c38c;">Features</th>
+        <th style="padding: 1rem; border: 1px solid #e0c38c;">Drop Rate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">🌕 Legendary</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">Golden Crust</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">Golden butter + Immortal toppings / Airdrop priority</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">1%</td>
+      </tr>
+      <tr>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">🔥 Epic</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">Burnt Edge</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">Crispy crust + Rare toppings / Swap fee discount</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">5%</td>
+      </tr>
+      <tr>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">🍯 Rare</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">Honey Butter</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">Sweet butter combo / Special baking animation</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">15%</td>
+      </tr>
+      <tr>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">🥖 Common</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">Toasty Bun</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">Standard bread + Basic butter</td>
+        <td style="padding: 1rem; border: 1px solid #f3e0b2;">79%</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="text-align: center; margin-top: 1.5rem; font-weight: bold; color: #5e3200;">
+    Ready to bake the crispiest Hambubter [$HBUB] of them all?
+  </p>
+</section>
+
+<section class="section" id="philosophy">
+  <h2>Hambubter [$HBUB] World Philosophy</h2>
+  <p><strong>Hambubter [$HBUB]</strong> is more than just a meme character.<br />
+  He is a <strong>greedy little hamster who always craves bread and butter</strong> —  
+  and a reflection of us investors, chasing infinite possibilities.</p>
+
+  <p>He may look round and cute, but his world is structured and logical.<br />
+  A hunger for <strong>real profits</strong> as fierce as his appetite,<br />
+  a <strong>value-preserving structure</strong> as stable as rich butter,<br />
+  and a <strong>community-driven ecosystem</strong> that bakes and shares daily —  
+  these are what make <strong>Hambubter</strong> more than just a meme, but a <strong>practical crypto asset</strong>.</p>
+
+  <blockquote><strong>“Spread it. Toast it. Earn it!”</strong></blockquote>
+
+  <p>This slogan isn’t just a joke —  
+  it’s the core philosophy of the <strong>Hambubter [$HBUB]</strong> ecosystem.</p>
+
+  <ul>
+    <li><strong>Two slices of bread represent liquidity</strong> – a solid market anyone can buy and sell in freely.</li>
+    <li><strong>The butter symbolizes stored value</strong> – a deflation-resistant supply model with real-world utility.</li>
+    <li><strong>Hambubter [$HBUB]</strong> is the perfect blend – a fusion of community, economy, memes, and practicality.</li>
+  </ul>
+
+  <p><strong>Hambubter [$HBUB]</strong> goes beyond fun and laughter.<br />
+  It achieves a harmony of memes and tokenomics through mechanisms like <strong>automatic burns</strong> to reduce supply,<br />
+  and a <strong>reward structure that brings real benefits to participants</strong>.</p>
+
+  <p>Don’t be fooled by the cuteness.<br />
+  <strong>HBUB is a next-gen meme coin born from a serious ecosystem — with high-calorie potential for growth.</strong></p>
+</section>
+
+<section class="section" id="tokenomics">
+  <h2>Tokenomics</h2>
+  <p>
+    The <strong>Hambubter [$HBUB]</strong> tokenomics are meticulously crafted to support long-term growth and ecosystem stability.
+  </p>
+  <p>
+    The token name is <strong>Hambubter</strong>, and the symbol is <strong>HBUB</strong> — representing a creative fusion of hamster, butter, and bun.  
+    With a total supply of <strong>100,000,000,000 HBUB</strong>, the token ensures ample liquidity and scalability.
+  </p>
+  <p>
+    Built on <strong>Solana</strong>, the blockchain was chosen for its lightning-fast transactions and minimal fees, delivering an optimal user experience.
+  </p>
+  <p>
+    Key mechanics include an <strong>auto-burn mechanism</strong>, a <strong>community reward system</strong>, and <strong>liquidity enhancement strategies</strong>,  
+    all designed to promote sustainable growth and price stability.
+  </p>
+  <p>
+    Hambubter [$HBUB] strikes a balance between fun and functionality — powered by a strong community and innovative tokenomics, it is poised to secure a unique place in the future crypto market.
+  </p>
+
+  <ul>
+    <li><strong>Tokenomics Overview</strong></li>
+    <li>Token Name: <strong>Hambubter [$HBUB]</strong></li>
+    <li>Symbol: <strong>HBUB</strong></li>
+    <li>Total Supply: <strong>100,000,000,000 HBUB</strong></li>
+    <li>Chain: <strong>Solana</strong></li>
+  </ul>
+</section>
+
+<section class="section" id="community">
+  <h2>Join the Community</h2>
+  <p><strong>Come join the baking fun with Hambubter [$HBUB]!</strong></p>
+  
+  <p>Hambubter is more than just a meme coin.<br />
+  It's a collective creation shaped by our passion, creativity, and collaboration.<br />
+  The community is the beating heart of <strong>Hambubter [$HBUB]</strong>, where real value is baked, buttered, and shared together.</p>
+
+  <p>Beyond simple “participation,” you become a co-creator in the future of this meme coin.<br />
+  With the power of the community, we can build stronger liquidity, a more resilient ecosystem, and a rewarding incentive system.</p>
+
+  <p>We invite you to join the <strong>Hambubter [$HBUB]</strong> community — where the more you contribute, the more fun and rewards you’ll enjoy.<br />
+  Just like a cute hamster spreading butter, your enthusiasm adds flavor and value to everything we build together.</p>
+
+  <p><strong>Get involved now!</strong><br />
+  New baking events, exclusive NFT drops, and diverse reward programs await you.<br />
+  <strong>With Hambubter [$HBUB], let’s Spread, Bake, and Earn — the journey continues with you.</strong></p>
+</section>
+<section class="section" id="team">
+  <h2>Hambubter [$HBUB] Team</h2>
+  <p>
+    <strong>Hambubter[$HBUB]</strong> is more than just a meme coin; it is an innovative crypto asset project uniquely blending meme culture with practicality. 
+    This project is managed by a passionate team with deep expertise in their respective fields, 
+    all dedicated to the growth and advancement of the <strong>Hambubter[$HBUB]</strong> ecosystem.
+  </p>
+  <p>
+    Our team excels in design, development, community management, marketing, and tokenomics design. 
+    Through this diverse expertise, we build a distinctive worldview and differentiated utility for <strong>Hambubter[$HBUB]</strong>, 
+    creating a robust ecosystem trusted and loved by both users and investors.
+  </p>
+  <p>
+    We prioritize technical excellence and community-centered operations to pursue sustainable growth and innovation simultaneously. 
+    Each team member goes beyond their role to collaborate closely, striving to make <strong>Hambubter[$HBUB]</strong> the new standard for meme coins.
+  </p>
+  <p>
+    Beneath the name of meme coin lies a serious philosophy, systematic strategy, and warm community spirit — all harmonized within <strong>Hambubter[$HBUB]</strong>. 
+    Our team will continue relentless research and development to ensure this project creates even greater value in the future.
+  </p>
+<ul>
+    <li><strong>ToastMaster</strong> — Lead Designer, responsible for Hambubter’s visuals and branding.</li>
+    <li><strong>ButterBot</strong> — Smart Contract & Tokenomics Developer, ensuring technical excellence.</li>
+    <li><strong>CrumbCommander</strong> — Community Manager, driving active engagement and communication.</li>
+    <li><strong>JamJuggler</strong> — Marketing & PR Specialist, spreading Hambubter’s value far and wide.</li>
+    <li><strong>GrillGuru</strong> — Ecosystem Strategist, crafting sustainable growth plans.</li>
+  </ul>
+  <p>
+    Together, these experts work to establish <strong>Hambubter[$HBUB]</strong> as a project that transcends memes, combining innovation and practicality.
+  </p>
+
+</section>
+<section class="section" id="official" style="font-size:16px;">
+  <h2>Official Channels</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 12px;">
+    <div style="flex: 1 1 200px;">
+      <strong>Website:</strong> <a href="https://hambubter.com" target="_blank">Hambubter</a>
+    </div>
+    <div style="flex: 1 1 200px;">
+      <strong>GitHub:</strong> <a href="https://github.com/Meowrth/hambubter" target="_blank">github.com</a>
+    </div>
+    <div style="flex: 1 1 200px;">
+      <strong>Twitter:</strong> <a href="https://twitter.com/hambubter" target="_blank">@hambubter</a>
+    </div>
+    <div style="flex: 1 1 100%;">
+      <strong>E-mail:</strong> 
+      <a href="mailto:hambubter@hambubter.com">hambubter@hambubter.com</a>, 
+    </div>
+    <div style="flex: 1 1 200px;">
+      <strong>Discord:</strong> <span class="muted">Coming soon</span>
+    </div>
+  </div>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Hambubter. All rights buttered.</p>
+  </footer>
 </body>
+</html>
