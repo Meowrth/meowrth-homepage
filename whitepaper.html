@@ -1,264 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Meowrth Team" />
-  <meta name="keywords" content="Meowrth, MEWR, Meme Coin, Solana, Cat Coin, Web3" />
-  <meta name="description" content="Meowrth [$MEWR] is the purrfect meme coin built on Solana, combining fun, community, and blockchain technology." />
-  <meta property="og:title" content="Meowrth [$MEWR] Whitepaper" />
-  <meta property="og:description" content="The Purrfect Meme Coin on Solana" />
-  <meta property="og:image" content="https://raw.githubusercontent.com/Meowrth/meowrth-homepage/main/images/logo.png" />
-  <meta property="og:url" content="https://www.meowrth.com/whitepaper.html" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" href="/favicon.ico" />
-  <title>Meowrth [$MEWR] Whitepaper</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hambubter Whitepaper</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body {
-      background-color: #111;
-      color: #fff;
-      font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf2;
       margin: 0;
-      padding: 2rem;
+      padding: 0;
       line-height: 1.6;
+      color: #444;
     }
-    h1, h2, h3 {
-      color: #ff99cc;
+    header {
+      background-color: #f7d774;
+      padding: 1rem 2rem;
+      text-align: center;
     }
-    nav {
-      background-color: #1a1a1a;
-      padding: 1rem;
-      margin-bottom: 2rem;
-      border-radius: 10px;
+    h1, h2 {
+      color: #5b3b00;
     }
-    nav a {
-      color: #66ccff;
-      margin-right: 15px;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-      color: #ffaaee;
-    }
-    .muted {
-      color: #aaa;
-      font-style: italic;
-    }
-    pre {
-      background-color: #222;
-      padding: 1rem;
-      border-radius: 10px;
-      overflow-x: auto;
-      white-space: pre-wrap;
-      word-break: break-word;
+    .container {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
     }
     canvas {
-      max-width: 400px;
-      width: 100%;
-      height: auto;
-      display: block;
-      margin: 1rem auto;
+      max-width: 100%;
+    }
+    .section {
+      margin-bottom: 3rem;
     }
     footer {
-      margin-top: 4rem;
-      padding-top: 2rem;
-      border-top: 1px solid #333;
       text-align: center;
-      font-size: 0.85rem;
-      color: #aaa;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background: #f7d774;
     }
-  </style>
+  .fixed-whitepaper-btn {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: #ffb347;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+</style>
 </head>
 <body>
+  <header>
+    <h1>Hambubter Whitepaper</h1>
+    <p>The Too-Hungry Meme Coin of Solana</p>
+  </header>
+<button class="btn fixed-whitepaper-btn" onclick="location.href='https://hambubter.com/index.html'">
+  Hambubter Home
+</button>
+  <div class="container">
 
-  <h1>Meowrth [$MEWR] Whitepaper</h1>
+    <div class="section">
+      <h2>1. Introduction</h2>
+      <p>Hambubter[$HBUB]는 단순한 밈코인이 아닙니다.
+햄스터의 귀여움과 끈질긴 식탐, 버터의 부드러움과 풍미, 그리고 빵의 따뜻함과 포만감이 하나로 합쳐져 태어난, 누구도 멈출 수 없는 ‘주체할 수 없는 식탐’의 밈코인입니다.
 
-  <nav>
-    <a href="#introduction">Introduction</a>
-    <a href="#tokenomics">Tokenomics</a>
-    <a href="#roadmap">Roadmap</a>
-    <a href="#team">Team</a>
-    <a href="#disclaimer">Disclaimer</a>
-  </nav>
+우리의 철학은 명확합니다. 매일매일, 하루에 세 번, 때로는 삼십세 번까지도 — 우리는 굽습니다.
+굽는다는 것은 단순히 ‘생산’하는 행위가 아니라, 커뮤니티와 함께 가치를 쌓고, 서로의 열정과 아이디어를 반죽해 완성하는 과정입니다.
 
-  <section id="introduction">
-    <h2>Introduction</h2>
-    <p>Meowrth is the purrfect meme coin built on Solana.</p>
-    <p>With lightning-fast transactions and a passionate community of cat lovers, Meowrth brings joy, fun, and value to the crypto world.</p>
-    <p><strong>Project Name:</strong> Meowrth [$MEWR]</p>
-    <p><strong>Slogan:</strong> The Purrfect Meme Coin on Solana</p>
-    <p><strong>Blockchain:</strong> Solana (SPL Token)</p>
-    <p><strong>Symbol:</strong> MEWR</p>
-    <p><strong>Launch Year:</strong> 2025</p>
+이처럼 Hambubter는 단순한 재미를 넘어, 실용성과 지속 가능한 성장의 길을 걷는 차세대 밈코인입니다.
+귀여운 겉모습 뒤에 숨겨진 끊임없는 욕망과 노력, 그리고 따뜻한 커뮤니티의 힘이 만나, Hambubter[$HBUB]만의 독창적인 세계를 만들어가고 있습니다.
 
-    <p>🌟 <strong>Vision:</strong></p>
-    <p>Meowrth is more than just a meme coin — it aims to become a cultural icon in the Web3 era.</p>
-    <p>Centered around the universal meme of cats, Meowrth fosters a community-driven economy where people can laugh, connect, and contribute together.</p>
-    <p>“Conquering the blockchain world with a single cat paw print.”</p>
+지금 이 순간도 우리는 굽고 있습니다. 앞으로도 멈추지 않고, 더 뜨겁고 바삭하게 — Hambubter[$HBUB]의 빵 굽는 소리가 울려 퍼질 것입니다.</p>
+    </div>
 
-    <p>🌐 <strong>Mission:</strong></p>
-    <ul>
-      <li>Deliver a meme coin experience with zero entry barriers</li>
-      <li>Merge Web3 utility with deep community engagement</li>
-      <li>Establish a DAO for global meme culture evolution</li>
-    </ul>
-  </section>
+    <div class="section">
+      <h2>2. Lore</h2>
+      <p>전설에 따르면, Hambubter[$HBUB] 종족은 한때 극심한 버터 부족 사태를 겪으며 큰 위기에 직면했습니다.
+그 시절, 버터는 단순한 식재료를 넘어 이들의 생존과 번영을 좌우하는 핵심 자원이었고, 부족한 버터는 Hambubter[$HBUB]들의 삶을 위태롭게 만들었습니다.
 
-  <section id="tokenomics">
-    <h2>Tokenomics</h2>
-    <p><strong>Total Supply:</strong> 10,000,000,000 MEWR</p>
-    <p><strong>Token Allocation:</strong></p>
-    <ul>
-      <li>40% Community</li>
-      <li>20% Development</li>
-      <li>20% Marketing</li>
-      <li>10% Liquidity</li>
-      <li>10% Reserve</li>
-    </ul>
-    <p>🧩 <strong>Strategy:</strong></p>
-    <ul>
-      <li>Grow the community via airdrops and quest-based distributions</li>
-      <li>Increase scarcity through burn mechanisms</li>
-      <li>Establish liquidity trust with LP lockups</li>
-    </ul>
-    <p style="text-align: center;">Token Distribution Pie Chart</p>
-    <canvas id="tokenChart"></canvas>
-  </section>
+하지만 이 위기 속에서 Hambubter[$HBUB]들은 절망에 굴복하지 않고, 새로운 희망을 찾기 위해 블록체인 위에 굽기의 왕국을 세우기로 결심했습니다.
+이 왕국은 단순한 디지털 공간을 넘어, 모두가 함께 모여 자신들의 가치를 굽고 지키며 성장시키는 혁신적인 생태계로 자리 잡았습니다.
 
-  <section id="Technology & Ecosystem">
-    <h2>Technology & Ecosystem</h2>
-    <p>🚀 <strong>Tech Stack:</strong></p>
-    <ul>
-      <li>Ultra-fast Solana network (thousands of TPS)</li>
-      <li>SPL token standard with smart contract and NFT compatibility</li>
-      <li>Modular design for future DAO and gaming integrations</li>
-    </ul>
+이 과정에서 탄생한 식탐 DAO는 Hambubter[$HBUB] 종족의 의지를 담아 노버터 연합과 끊임없이 맞서 싸우고 있습니다.
+노버터 연합은 버터의 결핍과 불안정성을 상징하는 세력으로, Hambubter[$HBUB]의 안정과 번영을 위협하는 존재입니다.
 
-    <p>🌐 <strong>Ecosystem Highlights:</strong></p>
-    <ul>
-      <li>MeowNFT Series – Community-driven meme NFT drops</li>
-      <li>P2E Mini-game – A cat escape adventure game (Q4 2025)</li>
-      <li>MeowDAO – Meme-governance through community voting</li>
-      <li>MeowSocial – A meme-sharing, reward-based social platform (coming soon)</li>
-    </ul>
+하지만 Hambubter[$HBUB]의 힘의 원천은 다름 아닌 <strong>HBUB</strong>, 즉 Hambubter[$HBUB] 토큰입니다.
+Hambubter[$HBUB]는 단순한 암호자산이 아니라, 굽기 왕국을 지탱하는 근본적인 에너지이며, 커뮤니티의 열정과 참여를 통해 그 가치는 날로 더욱 견고해지고 있습니다.
 
-    <p>💻 <strong>Open Source Policy:</strong></p>
-    <ul>
-      <li>Smart contracts and features available on GitHub</li>
-      <li>Open to pull requests and community proposals</li>
-    </ul>
-  </section>
+오늘도 Hambubter[$HBUB]와 그 동료들은 Hambubter[$HBUB]를 매개로 끊임없이 성장과 도전을 이어가며, 버터 부족이라는 옛 상처를 극복하고, 새로운 번영의 시대를 열기 위해 굳건히 나아가고 있습니다.
 
-  <section id="roadmap">
-    <h2>Roadmap</h2>
-    <p>✅ <strong>2025 Q2</strong></p>
-    <ul>
-      <li>Launch website, whitepaper, and Twitter</li>
-      <li>Begin community-based marketing</li>
-    </ul>
+이것이 바로 Hambubter[$HBUB] 굽기 왕국의 전설이며, 우리 모두가 함께 써 내려갈 미래입니다.</p>
+    </div>
 
-    <p>🚀 <strong>2025 Q3</strong></p>
-    <ul>
-      <li>Issue MEWR token</li>
-      <li>Launch first airdrop campaign</li>
-      <li>List on DEXs such as Jupiter</li>
-      <li>Hold Meow Meme Contest</li>
-    </ul>
+<div class="section">
+  <h2>3. Tokenomics</h2>
+  <p>
+    <strong>토큰 심볼:</strong> HBUB<br />
+    <strong>총 발행량:</strong> 100,000,000,000 HBUB
+  </p>
+  <p>
+    Hambubter 생태계의 중심에는 <strong>HBUB 토큰</strong>이 있습니다. 이 토큰은 프로젝트의 안정성과 장기적 성장을 위한 핵심 동력으로, 총 발행량은 1,000억 개로 설정되어 충분한 유동성과 확장성을 확보합니다.  
+    HBUB는 단순한 밈코인을 넘어, 다양한 기능과 경제적 유틸리티를 결합한 혁신적인 암호자산으로 설계되었습니다.
+  </p>
+  <p>
+    특히, 토큰 공급량은 자동 소각 메커니즘을 통해 점진적으로 감소하게 되어, 시간이 지날수록 희소성과 가치가 증가하도록 설계되었습니다.  
+    이러한 소각 메커니즘은 Hambubter 생태계 내 굽기 활동과 직접 연동되어, 토큰의 자연스러운 가치 상승을 도모합니다.
+  </p>
+  <canvas id="tokenChart"></canvas>
+</div>
 
-    <p>🎨 <strong>2025 Q4</strong></p>
-    <ul>
-      <li>Release first MeowNFT collection</li>
-      <li>Form partnerships (marketplaces, influencers, etc.)</li>
-      <li>Alpha test MeowDAO</li>
-    </ul>
+<div class="section">
+  <h2>4. Utility</h2>
+  <p>
+    HBUB 토큰은 Hambubter 생태계 내에서 다양한 실용적 기능을 수행하며, 커뮤니티 참여를 독려하는 중요한 역할을 합니다.
+  </p>
+  <p>
+HBUB 토큰은 Hambubter 생태계 내에서 매우 다양한 실용적 기능들을 수행하며, 단순한 거래 수단을 넘어 커뮤니티 참여와 성장, 그리고 생태계의 지속 가능성을 촉진하는 데 핵심적인 역할을 담당합니다. 이 토큰은 프로젝트의 경제적 기반을 형성할 뿐 아니라, 사용자와 투자자 모두가 능동적으로 생태계에 기여할 수 있도록 다양한 방식으로 설계되어 있습니다.
 
-    <p>🎮 <strong>2026 Q1</strong></p>
-    <ul>
-      <li>Launch P2E mini-game</li>
-      <li>Officially launch MeowDAO</li>
-      <li>Conduct first governance vote</li>
-    </ul>
+먼저, HBUB 토큰은 Hambubter 관련 한정판 NFT 발행에 필수적인 ‘민팅 재료’로서 활용됩니다. 이를 통해 토큰을 보유한 사용자들은 단순한 투자자가 아니라, 생태계 내에서 유니크한 디지털 자산을 직접 소유하고 경험하는 특별한 기회를 가지게 됩니다. 이 NFT들은 Hambubter 세계관을 대표하는 독창적인 아이템이자, 커뮤니티 내에서의 특별한 지위를 상징하며, 보유자 간 신뢰와 소속감을 더욱 강화합니다.
 
-    <p>🌐 <strong>2026 Q2 and beyond</strong></p>
-    <ul>
-      <li>Initiate global marketing campaigns</li>
-      <li>Expand meme-based DApp ecosystem</li>
-      <li>Explore multi-chain bridge integrations</li>
-    </ul>
-  </section>
+또한, HBUB 토큰은 ‘굽기’ 과정에서 발생할 수 있는 실패 상황에 대해 자동 소각 메커니즘을 적용함으로써 토큰의 공급량을 자연스럽게 조절하고 가치를 보호하는 중요한 역할을 합니다. 굽기 실패 시 일정량의 토큰이 소각되어 시장에 유통되는 토큰 총량이 줄어들게 되고, 이는 장기적으로 HBUB 토큰의 희소성과 가치를 증가시키는 긍정적인 효과를 가져옵니다. 이러한 자동 소각 메커니즘은 Hambubter 생태계가 단순히 성장에만 집중하는 것이 아니라, 안정적이고 지속 가능한 발전을 도모한다는 점에서 매우 의미 있는 설계입니다.
 
-  <section id="team">
-    <h2>Team</h2>
-    <p>👩‍🚀 <strong>Meowrth Team – Feline Forces Behind the Meme</strong></p>
+아울러 HBUB 토큰은 Hambubter DAO, 즉 탈중앙화 자율 조직 내에서 핵심적인 투표권으로 기능합니다. 커뮤니티 구성원들은 토큰을 통해 프로젝트의 주요 결정 사항에 직접 참여할 수 있으며, 예를 들어 다음에 어떤 빵을 굽을지 결정하는 등의 구체적인 의사결정 과정에서 목소리를 낼 수 있습니다. 이는 커뮤니티가 단순한 소비자가 아닌, 프로젝트의 공동 창작자이자 주체로서의 역할을 수행하게 만든다는 점에서 Hambubter의 핵심 철학과도 맞닿아 있습니다.
 
-    <p><strong>$CatDev - Smart Contract Lead</strong></p>
-    <p>A legendary hacker cat. After seeing a blinking hash value on a power line, he created Meowrth. Quiet by day, blockchain wizard by night.</p>
+마지막으로, HBUB 토큰은 다양한 커뮤니티 이벤트 및 보상 프로그램 참여를 위한 필수 요소로서, 사용자들이 Hambubter 프로젝트에 더욱 적극적으로 참여하도록 유도합니다. 토큰을 활용한 이벤트와 보상은 단순한 경제적 인센티브를 넘어, 커뮤니티의 활발한 활동과 친밀한 유대 형성에 기여하며, 이를 통해 건강하고 지속적인 생태계 조성이 이루어집니다.
 
-    <p><strong>$Meowster - Community Manager</strong></p>
-    <p>The Mona Lisa of the cat world. A mysterious designer blending NFTs and memes. Every creation goes viral. Identity: unknown.</p>
+이처럼 HBUB 토큰은 Hambubter 생태계 내에서 단순한 디지털 자산의 역할을 넘어, 커뮤니티 구성원 모두가 함께 성장하고 발전하며, 프로젝트의 비전을 실현하는 데 없어서는 안 될 필수적인 핵심 동력입니다. 앞으로도 Hambubter 팀은 HBUB 토큰의 유틸리티를 지속적으로 확장하고 강화하여, 모든 참여자가 더 큰 가치를 경험할 수 있도록 최선을 다할 것입니다.
+  <p>
+  <ul>
+    <li>
+      <strong>NFT 민팅 재료로 사용:</strong> HBUB 토큰은 Hambubter 관련 한정판 NFT를 발행하는 데 필요한 재료로 활용됩니다.  
+      이를 통해 토큰 보유자들은 독특한 디지털 자산을 소유하며, 생태계 내에서 특별한 지위를 확보할 수 있습니다.
+    </li>
+    <li>
+      <strong>굽기 실패 시 자동 소각:</strong> 굽기(토큰 사용, 거래 등) 과정에서 일정 조건에 따라 실패가 발생하면, 해당 HBUB 토큰은 자동으로 소각됩니다.  
+      이 메커니즘은 공급량을 자연스럽게 줄임으로써 토큰의 가치를 보호하는 역할을 수행합니다.
+    </li>
+    <li>
+      <strong>DAO 투표 참여:</strong> HBUB 토큰은 Hambubter DAO(탈중앙화 자율 조직)의 투표권으로 활용됩니다.  
+      예를 들어, 커뮤니티는 토큰 보유자들의 의견을 반영해 다음에 어떤 빵을 굽을지, 즉 향후 프로젝트 방향과 주요 정책을 결정할 수 있습니다.
+    </li>
+    <li>
+      <strong>커뮤니티 이벤트 참여:</strong> 다양한 커뮤니티 이벤트와 보상 프로그램에 참여하는 데 HBUB 토큰이 필요합니다.  
+      이를 통해 사용자들은 보다 적극적으로 프로젝트에 기여하며, 활발한 생태계 조성에 힘을 보탤 수 있습니다.
+    </li>
+  </ul>
+  <p>
+    이처럼 HBUB 토큰은 Hambubter 생태계 내에서 단순한 거래 수단을 넘어서, 커뮤니티 구성원 모두가 함께 성장하고 발전하는 데 필수적인 역할을 맡고 있습니다.
+  </p>
+</div>
 
-    <p><strong>$Pawroar - Creative & Marketing</strong></p>
-    <p>The guardian cat of Twitter and Discord. Whiskers full of hidden hashes, and always ready to use one of his nine lives.</p>
-    <p><strong>🧠 Advisory Group:</strong> To be formed post-DAO launch</p>
+    <div class="section">
+<div class="section">
+  <h2>5. Burn Mechanism</h2>
+  <p>
+    모든 재료는 굽지 않으면 썩어버립니다. Hambubter 생태계에서는 실패한 NFT 조합이 마치 버터가 녹아 사라지듯 자동으로 소각됩니다. 이러한 소각 과정은 HBUB 토큰의 공급량을 효과적으로 조절하는 핵심 메커니즘으로 작동하며, 토큰의 희소성을 높여 가치를 보호하는 데 중요한 역할을 합니다.
+  </p>
+  <p>
+    이 메커니즘은 단순한 소각을 넘어, 생태계의 건강한 순환과 지속 가능한 성장을 가능하게 하는 기반이 됩니다. 굽기 과정에서 실패하거나 불필요해진 토큰과 NFT가 소각됨으로써 시장에 과잉 공급되는 것을 방지하고, 커뮤니티의 토큰 가치 안정화에 기여합니다. 즉, Hambubter의 ‘버터처럼 녹는 소각’은 프로젝트의 장기적인 성공을 뒷받침하는 필수 요소입니다.
+  </p>
+</div>
 
-    <p><strong>💬 Community Strategy:</strong></p>
-    <ul>
-      <li>Interactive events: meme challenges, NFT contests</li>
-      <li>Reward activities: $MEWR for memes, articles, comics</li>
-      <li>Transparent reporting: monthly updates and vote results</li>
-    </ul>
+<div class="section">
+  <h2>6. Roadmap</h2>
+  <p>
+    Hambubter 프로젝트의 로드맵은 명확한 목표와 단계별 실행 계획을 통해 커뮤니티와 투자자에게 지속적인 신뢰와 가치를 제공합니다. 각 분기별 목표는 프로젝트의 성장과 생태계 확장을 위한 중요한 이정표로 설정되어 있으며, 이를 통해 Hambubter의 미래 비전을 체계적으로 실현하고자 합니다.
+  </p>
+  <ul>
+    <li>
+      <strong>Q1:</strong> HBUB 토큰의 공식 배포와 함께 프로젝트의 기초를 다지는 웹사이트를 오픈합니다. 이를 통해 사용자들이 프로젝트에 대한 신뢰를 쌓고, 기본 정보를 쉽게 접할 수 있도록 합니다.
+    </li>
+    <li>
+      <strong>Q2:</strong> Hambubter 생태계 내에서 사용할 수 있는 독창적인 NFT를 출시하며, 커뮤니티 활성화를 위해 밈 대회를 개최합니다. 이 기간 동안 참여자들이 프로젝트에 직접 참여하고, 창의력을 발휘할 수 있는 다양한 기회를 제공합니다.
+    </li>
+    <li>
+      <strong>Q3:</strong> 밈을 주제로 한 재미있고 인터랙티브한 게임 개발에 착수하며, DAO(탈중앙화 자율 조직)를 가동하여 커뮤니티가 프로젝트 운영에 직접 참여할 수 있는 구조를 마련합니다. 이를 통해 프로젝트의 민주적 의사결정과 커뮤니티 중심 운영을 실현합니다.
+    </li>
+    <li>
+      <strong>Q4:</strong> Hambubter의 상징성을 담은 햄붑터버거 굿즈를 다양한 파트너사와 협업하여 출시합니다. 이를 통해 브랜드 인지도를 높이고, 커뮤니티의 소속감과 참여도를 강화하는 동시에 새로운 수익 모델을 창출할 계획입니다.
+    </li>
+  </ul>
+  <p>
+    이와 같은 로드맵을 통해 Hambubter 프로젝트는 밈코인의 한계를 넘어, 실용성과 재미를 모두 갖춘 혁신적인 블록체인 생태계를 구축해 나갈 것입니다.
+  </p>
+</div>
 
-<p><strong>🔗 Official Channels:</strong></p>
-<ul>
-  <li>Website: <a href="https://meowrth.com" target="_blank">meowrth.com</a></li>
-  <li>Twitter: <a href="https://twitter.com/MarsMeowrth" target="_blank">@MarsMeowrth</a></li>
-  <li>GitHub: <a href="https://github.com/Meowrth/meowrth-homepage" target="_blank">https://github.com</a></li>
-  <li>Discord: <span class="muted">Coming soon</span></li>
-  <li>Email: 
-  <a href="mailto:Developer@meowrth.com">CatDev</a>, 
-  <a href="mailto:Designer@meowrth.com">Meowster</a>, 
-  <a href="mailto:Community@meowrth.com">Pawroar</a>
-</li>
-</ul>
-  </section>
-
-  <section id="disclaimer">
-    <h2>Disclaimer</h2>
-    <p>This whitepaper is for informational purposes only. It does not constitute financial, legal, or investment advice.
-          The Meowrth [$MEWR] token is a meme-based digital asset created for entertainment, community participation, and Web3 experimentation. It does not represent ownership, equity, or legal claims in any jurisdiction.
-          Participating in MEWR involves risks, including potential loss of capital. Meme tokens are highly volatile and influenced by market trends and sentiment.
-         Always DYOR (Do Your Own Research) and consult professionals before making financial decisions. Meowrth assumes no responsibility for losses resulting from project involvement.</p>
-  </section>
+<div class="section">
+  <h2>7. Team & Community</h2>
+  <p>
+    Hambubter 프로젝트는 특별한 이름 대신, 익명의 빵쟁이들로 이루어진 열정 가득한 팀이 운영하고 있습니다. 우리는 각자 자신만의 역할과 전문성을 바탕으로 모여, 햄스터의 굽기를 향한 신념과 열정을 공유하며 프로젝트를 함께 만들어가고 있습니다.
+  </p>
+  <p>
+    우리 팀은 이름보다는 결과로 말하며, 투명성과 신뢰를 기반으로 커뮤니티와 소통하는 것을 최우선 가치로 삼고 있습니다. 익명성 뒤에 숨겨진 진심과 책임감으로, Hambubter 생태계가 건전하고 지속 가능하게 성장할 수 있도록 노력합니다.
+  </p>
+  <p>
+    또한, 우리 프로젝트의 진정한 힘은 바로 커뮤니티에 있습니다. 트위터와 디스코드 채널을 통해 전 세계의 햄스터 굽기 애호가들이 모여 아이디어를 나누고, 이벤트에 참여하며 서로를 격려합니다. 커뮤니티와 함께 성장하는 Hambubter는 누구나 쉽게 참여하고 즐길 수 있는 열린 공간입니다.
+  </p>
+  <p>
+    만약 당신이 햄스터의 굽기를 믿고, 새로운 디지털 굽기 문화에 동참하고 싶다면, 지금 바로 트위터와 디스코드에서 우리와 함께하세요. 익명의 빵쟁이들이 만들어가는 이 특별한 여정에 당신도 함께할 수 있습니다.
+  </p>
+</div>
 
   <footer>
-    &copy; 2025 Meowrth Team. All rights reserved.
+    <p>&copy; 2025 Hambubter. All rights buttered.</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
     const ctx = document.getElementById('tokenChart').getContext('2d');
     new Chart(ctx, {
-      type: 'pie',
+      type: 'doughnut',
       data: {
-        labels: ['Community', 'Development', 'Marketing', 'Liquidity', 'Reserve'],
+        labels: ['Liquidity (50%)', 'Community Airdrop (20%)', 'Team (15%)', 'Ecosystem Fund (10%)', 'Burn Pool (5%)'],
         datasets: [{
-          label: 'Token Distribution',
-          data: [40, 20, 20, 10, 10],
-          backgroundColor: ['#ff6384', '#36a2eb', '#ffce56', '#9966ff', '#ff9f40'],
+          data: [50, 20, 15, 10, 5],
+          backgroundColor: ['#ffc107', '#ff9800', '#f57c00', '#ef6c00', '#e65100'],
         }]
       },
       options: {
         responsive: true,
         plugins: {
           legend: {
-            labels: { color: '#fff' }
+            position: 'bottom'
           }
         }
       }
     });
   </script>
-<script>
-  document.addEventListener('contextmenu', event => event.preventDefault());
-</script>
 </body>
 </html>
